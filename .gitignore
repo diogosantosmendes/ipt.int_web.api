@@ -1,0 +1,10 @@
+node_modules/
+# Build output, including the generated OpenAPI document.
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
