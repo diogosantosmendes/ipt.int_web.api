@@ -11,7 +11,9 @@ const document = swaggerJSDoc({
       version: '1.0.0',
       description: 'REST API for managing movies.',
     },
-    servers: [{ url: 'http://localhost:3000', description: 'Local server' }],
+    servers: [
+        { url: 'https://ipt-int-web-api.onrender.com', description: 'Production server' }
+    ],
   },
   apis: [
     path.join(rootDirectory, 'src/interfaces/rest/controllers/MovieController.ts'),
