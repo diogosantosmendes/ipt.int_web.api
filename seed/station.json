@@ -1,0 +1,452 @@
+[
+    {
+        "location": "Lisboa, Avenida da Liberdade",
+        "status": 1,
+        "coord": {
+            "lat": 38.7223,
+            "long": -9.1393
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Lisboa, Rua Augusta",
+        "status": 2,
+        "coord": {
+            "lat": 38.7108,
+            "long": -9.1366
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Lisboa, Avenida Almirante Reis",
+        "status": 1,
+        "coord": {
+            "lat": 38.7271,
+            "long": -9.1357
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Lisboa, Rua da Prata",
+        "status": 0,
+        "coord": {
+            "lat": 38.7097,
+            "long": -9.1379
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Porto, Avenida dos Aliados",
+        "status": 1,
+        "coord": {
+            "lat": 41.1496,
+            "long": -8.6109
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Porto, Rua de Santa Catarina",
+        "status": 2,
+        "coord": {
+            "lat": 41.1472,
+            "long": -8.6066
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Porto, Avenida da Boavista",
+        "status": 1,
+        "coord": {
+            "lat": 41.1598,
+            "long": -8.6305
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Porto, Rua de Cedofeita",
+        "status": 3,
+        "coord": {
+            "lat": 41.1524,
+            "long": -8.6207
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Coimbra, Rua Ferreira Borges",
+        "status": 1,
+        "coord": {
+            "lat": 40.2094,
+            "long": -8.4292
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Coimbra, Avenida Emidio Navarro",
+        "status": 2,
+        "coord": {
+            "lat": 40.2055,
+            "long": -8.4276
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Braga, Avenida Central",
+        "status": 1,
+        "coord": {
+            "lat": 41.5518,
+            "long": -8.4229
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Braga, Rua do Souto",
+        "status": 0,
+        "coord": {
+            "lat": 41.5505,
+            "long": -8.4261
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Faro, Rua de Santo Antonio",
+        "status": 1,
+        "coord": {
+            "lat": 37.0186,
+            "long": -7.9307
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Faro, Avenida 5 de Outubro",
+        "status": 2,
+        "coord": {
+            "lat": 37.0212,
+            "long": -7.9324
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Aveiro, Rua de Coimbra",
+        "status": 1,
+        "coord": {
+            "lat": 40.6412,
+            "long": -8.6536
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Aveiro, Avenida Doutor Lourenco Peixinho",
+        "status": 3,
+        "coord": {
+            "lat": 40.6427,
+            "long": -8.6478
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Setubal, Avenida Luisa Todi",
+        "status": 1,
+        "coord": {
+            "lat": 38.5221,
+            "long": -8.8926
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Setubal, Rua Arronches Junqueiro",
+        "status": 2,
+        "coord": {
+            "lat": 38.5241,
+            "long": -8.8918
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Leiria, Avenida Heróis de Angola",
+        "status": 1,
+        "coord": {
+            "lat": 39.7442,
+            "long": -8.8071
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Leiria, Rua Comandante João Belo",
+        "status": 0,
+        "coord": {
+            "lat": 39.7461,
+            "long": -8.8052
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Viseu, Rua Formosa",
+        "status": 1,
+        "coord": {
+            "lat": 40.6578,
+            "long": -7.9124
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Viseu, Avenida Alberto Sampaio",
+        "status": 2,
+        "coord": {
+            "lat": 40.6594,
+            "long": -7.9112
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Évora, Rua Cândido dos Reis",
+        "status": 1,
+        "coord": {
+            "lat": 38.5711,
+            "long": -7.9097
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Évora, Avenida Túlio Espanca",
+        "status": 3,
+        "coord": {
+            "lat": 38.5634,
+            "long": -7.9148
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Guimarães, Alameda de São Dâmaso",
+        "status": 1,
+        "coord": {
+            "lat": 41.4427,
+            "long": -8.2918
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Guimarães, Rua de Gil Vicente",
+        "status": 2,
+        "coord": {
+            "lat": 41.4439,
+            "long": -8.2934
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Viana do Castelo, Avenida dos Combatentes da Grande Guerra",
+        "status": 1,
+        "coord": {
+            "lat": 41.6937,
+            "long": -8.8312
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Viana do Castelo, Rua Manuel Espregueira",
+        "status": 0,
+        "coord": {
+            "lat": 41.6944,
+            "long": -8.8286
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Vila Real, Avenida Carvalho Araújo",
+        "status": 1,
+        "coord": {
+            "lat": 41.3006,
+            "long": -7.7441
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Vila Real, Rua Direita",
+        "status": 2,
+        "coord": {
+            "lat": 41.3014,
+            "long": -7.7425
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Castelo Branco, Avenida Nuno Álvares",
+        "status": 1,
+        "coord": {
+            "lat": 39.8228,
+            "long": -7.4909
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Castelo Branco, Rua de Santa Maria",
+        "status": 3,
+        "coord": {
+            "lat": 39.8241,
+            "long": -7.4971
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Beja, Rua Capitão João Francisco de Sousa",
+        "status": 1,
+        "coord": {
+            "lat": 38.0152,
+            "long": -7.8623
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Beja, Avenida Miguel Fernandes",
+        "status": 2,
+        "coord": {
+            "lat": 38.0171,
+            "long": -7.8656
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Santarém, Rua Serpa Pinto",
+        "status": 1,
+        "coord": {
+            "lat": 39.2368,
+            "long": -8.6851
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Santarém, Avenida José Saramago",
+        "status": 0,
+        "coord": {
+            "lat": 39.2297,
+            "long": -8.6834
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Portimão, Avenida Tomás Cabreira",
+        "status": 1,
+        "coord": {
+            "lat": 37.1194,
+            "long": -8.5378
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Portimão, Rua do Comércio",
+        "status": 2,
+        "coord": {
+            "lat": 37.1382,
+            "long": -8.5372
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Lagos, Avenida dos Descobrimentos",
+        "status": 1,
+        "coord": {
+            "lat": 37.1023,
+            "long": -8.6741
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Lagos, Rua Infante de Sagres",
+        "status": 3,
+        "coord": {
+            "lat": 37.1011,
+            "long": -8.673
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Sintra, Avenida Heliodoro Salgado",
+        "status": 1,
+        "coord": {
+            "lat": 38.8028,
+            "long": -9.3784
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Sintra, Rua Alfredo da Costa",
+        "status": 2,
+        "coord": {
+            "lat": 38.8007,
+            "long": -9.3799
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Cascais, Avenida Valbom",
+        "status": 1,
+        "coord": {
+            "lat": 38.6975,
+            "long": -9.4215
+        },
+        "pricePerKWh": 0.13
+    },
+    {
+        "location": "Cascais, Rua Frederico Arouca",
+        "status": 0,
+        "coord": {
+            "lat": 38.6971,
+            "long": -9.4222
+        },
+        "pricePerKWh": 0.14
+    },
+    {
+        "location": "Matosinhos, Rua Brito Capelo",
+        "status": 1,
+        "coord": {
+            "lat": 41.1862,
+            "long": -8.6905
+        },
+        "pricePerKWh": 0.15
+    },
+    {
+        "location": "Matosinhos, Avenida da República",
+        "status": 2,
+        "coord": {
+            "lat": 41.1824,
+            "long": -8.6913
+        },
+        "pricePerKWh": 0.16
+    },
+    {
+        "location": "Ovar, Rua Elias Garcia",
+        "status": 1,
+        "coord": {
+            "lat": 40.8603,
+            "long": -8.6252
+        },
+        "pricePerKWh": 0.17
+    },
+    {
+        "location": "Chaves, Avenida Santo Amaro",
+        "status": 3,
+        "coord": {
+            "lat": 41.7396,
+            "long": -7.4708
+        },
+        "pricePerKWh": 0.18
+    },
+    {
+        "location": "Bragança, Rua Alexandre Herculano",
+        "status": 1,
+        "coord": {
+            "lat": 41.8061,
+            "long": -6.7567
+        },
+        "pricePerKWh": 0.19
+    },
+    {
+        "location": "Ponta Delgada, Avenida Infante Dom Henrique",
+        "status": 2,
+        "coord": {
+            "lat": 37.7398,
+            "long": -25.6671
+        },
+        "pricePerKWh": 0.13
+    }
+]

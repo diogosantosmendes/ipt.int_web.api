@@ -1,0 +1,2502 @@
+[
+  {
+    "timestamp": "2026-05-19T23:08:31.493Z",
+    "duration": 91,
+    "kWh": 11.22
+  },
+  {
+    "timestamp": "2025-10-24T20:25:14.189Z",
+    "duration": 151,
+    "kWh": 55.37
+  },
+  {
+    "timestamp": "2025-08-12T13:04:20.938Z",
+    "duration": 179,
+    "kWh": 22.08
+  },
+  {
+    "timestamp": "2025-03-11T17:00:04.655Z",
+    "duration": 86,
+    "kWh": 10.61
+  },
+  {
+    "timestamp": "2026-09-19T12:46:29.001Z",
+    "duration": 34,
+    "kWh": 12.47
+  },
+  {
+    "timestamp": "2026-08-31T11:11:01.050Z",
+    "duration": 146,
+    "kWh": 53.53
+  },
+  {
+    "timestamp": "2025-08-05T15:43:49.764Z",
+    "duration": 55,
+    "kWh": 6.78
+  },
+  {
+    "timestamp": "2026-08-26T03:02:39.026Z",
+    "duration": 144,
+    "kWh": 26.4
+  },
+  {
+    "timestamp": "2025-05-08T17:59:03.939Z",
+    "duration": 41,
+    "kWh": 7.52
+  },
+  {
+    "timestamp": "2026-10-09T21:25:45.846Z",
+    "duration": 102,
+    "kWh": 37.4
+  },
+  {
+    "timestamp": "2025-07-29T02:36:21.805Z",
+    "duration": 51,
+    "kWh": 9.35
+  },
+  {
+    "timestamp": "2026-10-13T12:56:46.928Z",
+    "duration": 175,
+    "kWh": 32.08
+  },
+  {
+    "timestamp": "2025-03-10T01:51:53.448Z",
+    "duration": 67,
+    "kWh": 12.28
+  },
+  {
+    "timestamp": "2025-07-31T13:40:19.519Z",
+    "duration": 120,
+    "kWh": 44
+  },
+  {
+    "timestamp": "2026-01-30T01:06:31.563Z",
+    "duration": 62,
+    "kWh": 11.37
+  },
+  {
+    "timestamp": "2025-07-25T23:50:45.362Z",
+    "duration": 93,
+    "kWh": 17.05
+  },
+  {
+    "timestamp": "2025-11-05T06:20:25.845Z",
+    "duration": 149,
+    "kWh": 27.32
+  },
+  {
+    "timestamp": "2025-02-21T23:11:43.165Z",
+    "duration": 25,
+    "kWh": 3.08
+  },
+  {
+    "timestamp": "2025-07-02T01:27:28.242Z",
+    "duration": 100,
+    "kWh": 36.67
+  },
+  {
+    "timestamp": "2026-07-12T23:24:57.046Z",
+    "duration": 140,
+    "kWh": 51.33
+  },
+  {
+    "timestamp": "2025-06-20T10:17:17.826Z",
+    "duration": 37,
+    "kWh": 6.78
+  },
+  {
+    "timestamp": "2026-01-16T23:20:48.562Z",
+    "duration": 135,
+    "kWh": 24.75
+  },
+  {
+    "timestamp": "2025-08-24T04:52:12.835Z",
+    "duration": 153,
+    "kWh": 56.1
+  },
+  {
+    "timestamp": "2026-05-06T20:25:56.718Z",
+    "duration": 79,
+    "kWh": 14.48
+  },
+  {
+    "timestamp": "2025-10-18T23:12:26.670Z",
+    "duration": 72,
+    "kWh": 8.88
+  },
+  {
+    "timestamp": "2025-08-10T17:14:13.820Z",
+    "duration": 25,
+    "kWh": 9.17
+  },
+  {
+    "timestamp": "2026-04-09T07:55:08.771Z",
+    "duration": 119,
+    "kWh": 21.82
+  },
+  {
+    "timestamp": "2025-01-24T00:31:28.555Z",
+    "duration": 86,
+    "kWh": 10.61
+  },
+  {
+    "timestamp": "2026-03-17T17:57:56.482Z",
+    "duration": 75,
+    "kWh": 13.75
+  },
+  {
+    "timestamp": "2026-02-17T04:14:05.449Z",
+    "duration": 76,
+    "kWh": 27.87
+  },
+  {
+    "timestamp": "2026-08-02T13:56:31.252Z",
+    "duration": 96,
+    "kWh": 11.84
+  },
+  {
+    "timestamp": "2026-01-22T08:13:39.635Z",
+    "duration": 86,
+    "kWh": 10.61
+  },
+  {
+    "timestamp": "2026-07-18T03:23:15.455Z",
+    "duration": 51,
+    "kWh": 9.35
+  },
+  {
+    "timestamp": "2025-04-27T18:09:58.731Z",
+    "duration": 95,
+    "kWh": 17.42
+  },
+  {
+    "timestamp": "2025-07-13T02:30:42.465Z",
+    "duration": 73,
+    "kWh": 13.38
+  },
+  {
+    "timestamp": "2025-03-10T10:07:23.347Z",
+    "duration": 133,
+    "kWh": 24.38
+  },
+  {
+    "timestamp": "2026-02-04T00:39:38.052Z",
+    "duration": 152,
+    "kWh": 18.75
+  },
+  {
+    "timestamp": "2026-08-02T02:19:04.860Z",
+    "duration": 73,
+    "kWh": 9
+  },
+  {
+    "timestamp": "2026-01-13T19:58:09.641Z",
+    "duration": 168,
+    "kWh": 30.8
+  },
+  {
+    "timestamp": "2025-02-07T09:19:09.465Z",
+    "duration": 144,
+    "kWh": 52.8
+  },
+  {
+    "timestamp": "2025-04-19T17:01:32.979Z",
+    "duration": 126,
+    "kWh": 15.54
+  },
+  {
+    "timestamp": "2025-12-29T16:07:47.148Z",
+    "duration": 156,
+    "kWh": 28.6
+  },
+  {
+    "timestamp": "2025-10-31T00:59:29.890Z",
+    "duration": 74,
+    "kWh": 9.13
+  },
+  {
+    "timestamp": "2026-03-04T13:30:52.266Z",
+    "duration": 92,
+    "kWh": 16.87
+  },
+  {
+    "timestamp": "2025-04-28T09:11:35.059Z",
+    "duration": 104,
+    "kWh": 12.83
+  },
+  {
+    "timestamp": "2026-02-28T02:49:51.250Z",
+    "duration": 52,
+    "kWh": 6.41
+  },
+  {
+    "timestamp": "2025-03-26T20:36:36.582Z",
+    "duration": 166,
+    "kWh": 60.87
+  },
+  {
+    "timestamp": "2026-01-15T12:28:15.627Z",
+    "duration": 150,
+    "kWh": 18.5
+  },
+  {
+    "timestamp": "2025-05-23T10:49:44.783Z",
+    "duration": 84,
+    "kWh": 10.36
+  },
+  {
+    "timestamp": "2026-08-18T16:58:33.403Z",
+    "duration": 85,
+    "kWh": 15.58
+  },
+  {
+    "timestamp": "2026-09-23T09:28:30.274Z",
+    "duration": 124,
+    "kWh": 22.73
+  },
+  {
+    "timestamp": "2025-06-25T07:07:23.407Z",
+    "duration": 134,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2026-01-08T12:48:12.322Z",
+    "duration": 70,
+    "kWh": 12.83
+  },
+  {
+    "timestamp": "2026-04-17T19:35:40.236Z",
+    "duration": 126,
+    "kWh": 15.54
+  },
+  {
+    "timestamp": "2025-09-05T09:00:52.853Z",
+    "duration": 27,
+    "kWh": 4.95
+  },
+  {
+    "timestamp": "2026-09-02T18:09:35.159Z",
+    "duration": 178,
+    "kWh": 32.63
+  },
+  {
+    "timestamp": "2026-02-05T17:02:44.221Z",
+    "duration": 178,
+    "kWh": 65.27
+  },
+  {
+    "timestamp": "2025-05-25T15:44:33.324Z",
+    "duration": 113,
+    "kWh": 13.94
+  },
+  {
+    "timestamp": "2026-05-18T19:10:11.751Z",
+    "duration": 162,
+    "kWh": 19.98
+  },
+  {
+    "timestamp": "2026-02-04T20:37:47.627Z",
+    "duration": 93,
+    "kWh": 17.05
+  },
+  {
+    "timestamp": "2026-05-14T20:33:25.550Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2025-01-17T07:52:13.682Z",
+    "duration": 130,
+    "kWh": 16.03
+  },
+  {
+    "timestamp": "2026-07-01T06:44:10.513Z",
+    "duration": 25,
+    "kWh": 3.08
+  },
+  {
+    "timestamp": "2025-02-12T04:16:25.346Z",
+    "duration": 93,
+    "kWh": 17.05
+  },
+  {
+    "timestamp": "2025-09-16T20:23:44.576Z",
+    "duration": 102,
+    "kWh": 12.58
+  },
+  {
+    "timestamp": "2026-02-06T17:59:53.903Z",
+    "duration": 96,
+    "kWh": 35.2
+  },
+  {
+    "timestamp": "2025-12-11T01:03:07.836Z",
+    "duration": 138,
+    "kWh": 50.6
+  },
+  {
+    "timestamp": "2025-08-08T03:33:37.499Z",
+    "duration": 152,
+    "kWh": 27.87
+  },
+  {
+    "timestamp": "2025-10-03T12:00:23.904Z",
+    "duration": 82,
+    "kWh": 10.11
+  },
+  {
+    "timestamp": "2025-05-23T07:35:00.409Z",
+    "duration": 37,
+    "kWh": 6.78
+  },
+  {
+    "timestamp": "2025-01-13T08:27:13.358Z",
+    "duration": 100,
+    "kWh": 12.33
+  },
+  {
+    "timestamp": "2025-01-02T07:16:40.335Z",
+    "duration": 147,
+    "kWh": 18.13
+  },
+  {
+    "timestamp": "2025-08-25T17:38:10.787Z",
+    "duration": 96,
+    "kWh": 11.84
+  },
+  {
+    "timestamp": "2026-03-03T02:58:38.825Z",
+    "duration": 112,
+    "kWh": 20.53
+  },
+  {
+    "timestamp": "2025-06-15T01:15:00.263Z",
+    "duration": 41,
+    "kWh": 15.03
+  },
+  {
+    "timestamp": "2026-01-18T16:32:33.723Z",
+    "duration": 161,
+    "kWh": 19.86
+  },
+  {
+    "timestamp": "2025-01-09T12:14:43.753Z",
+    "duration": 111,
+    "kWh": 20.35
+  },
+  {
+    "timestamp": "2026-02-26T21:36:28.908Z",
+    "duration": 81,
+    "kWh": 14.85
+  },
+  {
+    "timestamp": "2025-09-10T08:34:11.247Z",
+    "duration": 137,
+    "kWh": 16.9
+  },
+  {
+    "timestamp": "2025-11-24T16:24:06.757Z",
+    "duration": 160,
+    "kWh": 19.73
+  },
+  {
+    "timestamp": "2026-08-06T18:35:06.049Z",
+    "duration": 93,
+    "kWh": 17.05
+  },
+  {
+    "timestamp": "2025-06-09T15:30:12.168Z",
+    "duration": 112,
+    "kWh": 20.53
+  },
+  {
+    "timestamp": "2025-06-25T18:48:31.373Z",
+    "duration": 163,
+    "kWh": 59.77
+  },
+  {
+    "timestamp": "2025-02-23T23:56:20.853Z",
+    "duration": 174,
+    "kWh": 63.8
+  },
+  {
+    "timestamp": "2026-05-11T00:44:51.419Z",
+    "duration": 64,
+    "kWh": 23.47
+  },
+  {
+    "timestamp": "2025-11-22T19:41:38.728Z",
+    "duration": 98,
+    "kWh": 12.09
+  },
+  {
+    "timestamp": "2026-07-12T21:46:06.662Z",
+    "duration": 179,
+    "kWh": 32.82
+  },
+  {
+    "timestamp": "2026-08-28T12:27:31.349Z",
+    "duration": 33,
+    "kWh": 12.1
+  },
+  {
+    "timestamp": "2025-03-06T10:23:21.559Z",
+    "duration": 77,
+    "kWh": 28.23
+  },
+  {
+    "timestamp": "2025-08-17T02:55:51.691Z",
+    "duration": 124,
+    "kWh": 15.29
+  },
+  {
+    "timestamp": "2026-03-04T07:12:02.152Z",
+    "duration": 132,
+    "kWh": 16.28
+  },
+  {
+    "timestamp": "2025-05-06T19:51:32.486Z",
+    "duration": 62,
+    "kWh": 7.65
+  },
+  {
+    "timestamp": "2026-06-05T20:23:36.024Z",
+    "duration": 137,
+    "kWh": 25.12
+  },
+  {
+    "timestamp": "2026-09-09T20:19:22.848Z",
+    "duration": 126,
+    "kWh": 46.2
+  },
+  {
+    "timestamp": "2026-07-15T15:25:36.493Z",
+    "duration": 75,
+    "kWh": 27.5
+  },
+  {
+    "timestamp": "2026-07-03T22:04:05.137Z",
+    "duration": 94,
+    "kWh": 17.23
+  },
+  {
+    "timestamp": "2026-08-26T17:26:23.347Z",
+    "duration": 138,
+    "kWh": 17.02
+  },
+  {
+    "timestamp": "2025-10-14T22:47:50.983Z",
+    "duration": 31,
+    "kWh": 5.68
+  },
+  {
+    "timestamp": "2025-03-14T21:55:47.799Z",
+    "duration": 142,
+    "kWh": 17.51
+  },
+  {
+    "timestamp": "2025-08-08T04:05:02.698Z",
+    "duration": 157,
+    "kWh": 19.36
+  },
+  {
+    "timestamp": "2025-09-16T13:28:13.274Z",
+    "duration": 175,
+    "kWh": 21.58
+  },
+  {
+    "timestamp": "2026-04-25T14:56:31.874Z",
+    "duration": 74,
+    "kWh": 9.13
+  },
+  {
+    "timestamp": "2025-10-15T05:01:21.766Z",
+    "duration": 151,
+    "kWh": 55.37
+  },
+  {
+    "timestamp": "2025-09-26T05:54:43.395Z",
+    "duration": 142,
+    "kWh": 17.51
+  },
+  {
+    "timestamp": "2026-01-05T11:28:34.054Z",
+    "duration": 140,
+    "kWh": 25.67
+  },
+  {
+    "timestamp": "2025-04-05T09:21:07.366Z",
+    "duration": 158,
+    "kWh": 57.93
+  },
+  {
+    "timestamp": "2025-03-18T21:07:08.559Z",
+    "duration": 171,
+    "kWh": 62.7
+  },
+  {
+    "timestamp": "2026-05-09T16:55:32.071Z",
+    "duration": 82,
+    "kWh": 10.11
+  },
+  {
+    "timestamp": "2026-01-29T03:36:56.370Z",
+    "duration": 79,
+    "kWh": 14.48
+  },
+  {
+    "timestamp": "2026-05-31T00:05:34.738Z",
+    "duration": 155,
+    "kWh": 56.83
+  },
+  {
+    "timestamp": "2026-01-19T11:47:25.148Z",
+    "duration": 94,
+    "kWh": 34.47
+  },
+  {
+    "timestamp": "2025-12-27T08:28:31.451Z",
+    "duration": 71,
+    "kWh": 13.02
+  },
+  {
+    "timestamp": "2026-06-26T14:11:06.030Z",
+    "duration": 96,
+    "kWh": 35.2
+  },
+  {
+    "timestamp": "2025-05-07T01:24:13.409Z",
+    "duration": 169,
+    "kWh": 61.97
+  },
+  {
+    "timestamp": "2025-03-11T21:07:44.434Z",
+    "duration": 124,
+    "kWh": 45.47
+  },
+  {
+    "timestamp": "2026-07-01T10:40:18.923Z",
+    "duration": 127,
+    "kWh": 15.66
+  },
+  {
+    "timestamp": "2025-02-17T09:46:09.956Z",
+    "duration": 95,
+    "kWh": 17.42
+  },
+  {
+    "timestamp": "2025-05-07T19:37:45.404Z",
+    "duration": 105,
+    "kWh": 12.95
+  },
+  {
+    "timestamp": "2026-09-07T06:44:52.044Z",
+    "duration": 66,
+    "kWh": 12.1
+  },
+  {
+    "timestamp": "2026-06-20T14:20:01.168Z",
+    "duration": 86,
+    "kWh": 15.77
+  },
+  {
+    "timestamp": "2025-02-20T20:36:35.171Z",
+    "duration": 163,
+    "kWh": 20.1
+  },
+  {
+    "timestamp": "2026-03-31T00:11:20.622Z",
+    "duration": 78,
+    "kWh": 14.3
+  },
+  {
+    "timestamp": "2025-08-18T00:07:36.714Z",
+    "duration": 112,
+    "kWh": 13.81
+  },
+  {
+    "timestamp": "2026-06-01T20:20:12.859Z",
+    "duration": 83,
+    "kWh": 15.22
+  },
+  {
+    "timestamp": "2026-02-19T04:43:31.412Z",
+    "duration": 100,
+    "kWh": 12.33
+  },
+  {
+    "timestamp": "2026-02-27T07:37:20.506Z",
+    "duration": 95,
+    "kWh": 17.42
+  },
+  {
+    "timestamp": "2025-09-03T00:12:25.493Z",
+    "duration": 69,
+    "kWh": 8.51
+  },
+  {
+    "timestamp": "2026-08-09T07:52:47.505Z",
+    "duration": 119,
+    "kWh": 21.82
+  },
+  {
+    "timestamp": "2025-09-13T15:28:34.654Z",
+    "duration": 123,
+    "kWh": 45.1
+  },
+  {
+    "timestamp": "2026-04-22T04:40:28.651Z",
+    "duration": 133,
+    "kWh": 16.4
+  },
+  {
+    "timestamp": "2026-04-28T21:57:17.395Z",
+    "duration": 138,
+    "kWh": 25.3
+  },
+  {
+    "timestamp": "2025-08-22T21:36:40.666Z",
+    "duration": 174,
+    "kWh": 21.46
+  },
+  {
+    "timestamp": "2025-02-12T12:17:32.757Z",
+    "duration": 172,
+    "kWh": 21.21
+  },
+  {
+    "timestamp": "2026-03-23T03:24:53.161Z",
+    "duration": 176,
+    "kWh": 21.71
+  },
+  {
+    "timestamp": "2025-07-04T22:41:26.386Z",
+    "duration": 89,
+    "kWh": 32.63
+  },
+  {
+    "timestamp": "2025-10-21T10:17:36.713Z",
+    "duration": 31,
+    "kWh": 11.37
+  },
+  {
+    "timestamp": "2025-10-16T01:46:24.199Z",
+    "duration": 76,
+    "kWh": 27.87
+  },
+  {
+    "timestamp": "2025-09-12T09:54:02.362Z",
+    "duration": 38,
+    "kWh": 13.93
+  },
+  {
+    "timestamp": "2025-09-14T19:13:37.131Z",
+    "duration": 91,
+    "kWh": 16.68
+  },
+  {
+    "timestamp": "2026-08-12T18:47:52.227Z",
+    "duration": 85,
+    "kWh": 15.58
+  },
+  {
+    "timestamp": "2025-08-15T10:11:38.090Z",
+    "duration": 134,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2026-07-13T12:41:06.929Z",
+    "duration": 80,
+    "kWh": 9.87
+  },
+  {
+    "timestamp": "2025-06-22T02:14:47.529Z",
+    "duration": 115,
+    "kWh": 14.18
+  },
+  {
+    "timestamp": "2025-12-20T19:40:51.234Z",
+    "duration": 128,
+    "kWh": 46.93
+  },
+  {
+    "timestamp": "2025-01-16T23:43:57.732Z",
+    "duration": 167,
+    "kWh": 30.62
+  },
+  {
+    "timestamp": "2026-08-05T14:59:54.878Z",
+    "duration": 50,
+    "kWh": 9.17
+  },
+  {
+    "timestamp": "2025-10-16T02:55:58.056Z",
+    "duration": 82,
+    "kWh": 15.03
+  },
+  {
+    "timestamp": "2025-03-19T06:21:08.943Z",
+    "duration": 122,
+    "kWh": 15.05
+  },
+  {
+    "timestamp": "2026-09-01T00:22:01.995Z",
+    "duration": 110,
+    "kWh": 13.57
+  },
+  {
+    "timestamp": "2025-09-02T07:31:00.159Z",
+    "duration": 92,
+    "kWh": 11.35
+  },
+  {
+    "timestamp": "2026-02-05T04:38:16.566Z",
+    "duration": 128,
+    "kWh": 23.47
+  },
+  {
+    "timestamp": "2025-11-12T09:00:54.826Z",
+    "duration": 134,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2025-10-28T10:57:14.189Z",
+    "duration": 166,
+    "kWh": 30.43
+  },
+  {
+    "timestamp": "2025-07-01T10:10:49.151Z",
+    "duration": 39,
+    "kWh": 14.3
+  },
+  {
+    "timestamp": "2025-01-29T05:03:20.065Z",
+    "duration": 42,
+    "kWh": 5.18
+  },
+  {
+    "timestamp": "2025-11-17T16:36:07.744Z",
+    "duration": 87,
+    "kWh": 10.73
+  },
+  {
+    "timestamp": "2026-08-27T10:25:50.410Z",
+    "duration": 72,
+    "kWh": 26.4
+  },
+  {
+    "timestamp": "2025-07-18T13:31:09.482Z",
+    "duration": 165,
+    "kWh": 30.25
+  },
+  {
+    "timestamp": "2025-04-25T00:15:02.328Z",
+    "duration": 108,
+    "kWh": 39.6
+  },
+  {
+    "timestamp": "2026-08-22T07:19:17.253Z",
+    "duration": 46,
+    "kWh": 5.67
+  },
+  {
+    "timestamp": "2025-05-11T20:03:07.676Z",
+    "duration": 50,
+    "kWh": 9.17
+  },
+  {
+    "timestamp": "2026-04-30T00:24:53.093Z",
+    "duration": 111,
+    "kWh": 20.35
+  },
+  {
+    "timestamp": "2025-11-05T12:36:26.987Z",
+    "duration": 136,
+    "kWh": 49.87
+  },
+  {
+    "timestamp": "2026-03-02T15:22:42.553Z",
+    "duration": 45,
+    "kWh": 8.25
+  },
+  {
+    "timestamp": "2025-06-04T21:32:17.943Z",
+    "duration": 134,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2025-12-21T20:00:24.579Z",
+    "duration": 34,
+    "kWh": 6.23
+  },
+  {
+    "timestamp": "2026-02-12T18:17:03.521Z",
+    "duration": 49,
+    "kWh": 17.97
+  },
+  {
+    "timestamp": "2026-03-13T20:15:36.496Z",
+    "duration": 39,
+    "kWh": 14.3
+  },
+  {
+    "timestamp": "2026-03-19T03:12:34.075Z",
+    "duration": 77,
+    "kWh": 14.12
+  },
+  {
+    "timestamp": "2026-07-03T21:30:40.282Z",
+    "duration": 148,
+    "kWh": 18.25
+  },
+  {
+    "timestamp": "2025-01-24T17:26:39.206Z",
+    "duration": 29,
+    "kWh": 3.58
+  },
+  {
+    "timestamp": "2026-07-17T13:15:48.532Z",
+    "duration": 175,
+    "kWh": 32.08
+  },
+  {
+    "timestamp": "2025-05-11T12:08:33.039Z",
+    "duration": 78,
+    "kWh": 9.62
+  },
+  {
+    "timestamp": "2026-08-09T00:49:09.201Z",
+    "duration": 89,
+    "kWh": 10.98
+  },
+  {
+    "timestamp": "2026-07-22T16:33:53.908Z",
+    "duration": 38,
+    "kWh": 4.69
+  },
+  {
+    "timestamp": "2025-10-01T05:46:51.137Z",
+    "duration": 128,
+    "kWh": 23.47
+  },
+  {
+    "timestamp": "2026-05-08T04:16:36.747Z",
+    "duration": 115,
+    "kWh": 21.08
+  },
+  {
+    "timestamp": "2025-06-18T06:23:36.995Z",
+    "duration": 102,
+    "kWh": 37.4
+  },
+  {
+    "timestamp": "2026-02-18T12:56:37.675Z",
+    "duration": 75,
+    "kWh": 13.75
+  },
+  {
+    "timestamp": "2025-02-10T19:39:15.447Z",
+    "duration": 69,
+    "kWh": 25.3
+  },
+  {
+    "timestamp": "2026-07-16T18:13:20.762Z",
+    "duration": 171,
+    "kWh": 21.09
+  },
+  {
+    "timestamp": "2025-09-22T22:07:36.036Z",
+    "duration": 60,
+    "kWh": 7.4
+  },
+  {
+    "timestamp": "2025-03-24T06:43:14.892Z",
+    "duration": 61,
+    "kWh": 11.18
+  },
+  {
+    "timestamp": "2025-01-30T19:14:11.259Z",
+    "duration": 168,
+    "kWh": 61.6
+  },
+  {
+    "timestamp": "2026-02-15T06:07:45.609Z",
+    "duration": 169,
+    "kWh": 61.97
+  },
+  {
+    "timestamp": "2026-09-12T12:28:26.690Z",
+    "duration": 140,
+    "kWh": 51.33
+  },
+  {
+    "timestamp": "2026-01-03T02:20:32.961Z",
+    "duration": 43,
+    "kWh": 15.77
+  },
+  {
+    "timestamp": "2026-06-30T10:33:23.045Z",
+    "duration": 100,
+    "kWh": 18.33
+  },
+  {
+    "timestamp": "2025-12-09T16:41:00.937Z",
+    "duration": 157,
+    "kWh": 28.78
+  },
+  {
+    "timestamp": "2026-03-11T10:21:49.359Z",
+    "duration": 29,
+    "kWh": 5.32
+  },
+  {
+    "timestamp": "2026-03-15T00:32:05.366Z",
+    "duration": 124,
+    "kWh": 15.29
+  },
+  {
+    "timestamp": "2026-08-01T21:28:21.486Z",
+    "duration": 123,
+    "kWh": 22.55
+  },
+  {
+    "timestamp": "2025-11-20T23:06:48.748Z",
+    "duration": 45,
+    "kWh": 8.25
+  },
+  {
+    "timestamp": "2026-05-27T16:39:47.908Z",
+    "duration": 169,
+    "kWh": 61.97
+  },
+  {
+    "timestamp": "2026-03-20T10:34:18.336Z",
+    "duration": 29,
+    "kWh": 5.32
+  },
+  {
+    "timestamp": "2026-08-14T06:41:11.556Z",
+    "duration": 104,
+    "kWh": 38.13
+  },
+  {
+    "timestamp": "2026-08-21T13:48:36.285Z",
+    "duration": 61,
+    "kWh": 11.18
+  },
+  {
+    "timestamp": "2025-12-19T06:48:06.457Z",
+    "duration": 137,
+    "kWh": 16.9
+  },
+  {
+    "timestamp": "2026-09-30T23:34:36.407Z",
+    "duration": 81,
+    "kWh": 29.7
+  },
+  {
+    "timestamp": "2025-11-09T05:35:15.665Z",
+    "duration": 100,
+    "kWh": 36.67
+  },
+  {
+    "timestamp": "2025-04-16T22:18:35.472Z",
+    "duration": 134,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2025-05-02T11:42:29.775Z",
+    "duration": 59,
+    "kWh": 7.28
+  },
+  {
+    "timestamp": "2026-08-27T07:37:07.557Z",
+    "duration": 157,
+    "kWh": 57.57
+  },
+  {
+    "timestamp": "2025-02-22T06:17:18.978Z",
+    "duration": 74,
+    "kWh": 13.57
+  },
+  {
+    "timestamp": "2026-10-20T08:29:01.333Z",
+    "duration": 45,
+    "kWh": 5.55
+  },
+  {
+    "timestamp": "2026-07-21T13:40:36.389Z",
+    "duration": 86,
+    "kWh": 15.77
+  },
+  {
+    "timestamp": "2025-10-21T01:08:51.179Z",
+    "duration": 118,
+    "kWh": 14.55
+  },
+  {
+    "timestamp": "2025-08-03T17:53:57.902Z",
+    "duration": 90,
+    "kWh": 33
+  },
+  {
+    "timestamp": "2025-04-28T06:29:42.955Z",
+    "duration": 163,
+    "kWh": 29.88
+  },
+  {
+    "timestamp": "2026-01-14T16:08:45.867Z",
+    "duration": 171,
+    "kWh": 21.09
+  },
+  {
+    "timestamp": "2026-02-18T07:57:34.254Z",
+    "duration": 79,
+    "kWh": 9.74
+  },
+  {
+    "timestamp": "2025-11-06T18:28:58.250Z",
+    "duration": 36,
+    "kWh": 4.44
+  },
+  {
+    "timestamp": "2025-01-16T05:03:15.705Z",
+    "duration": 73,
+    "kWh": 13.38
+  },
+  {
+    "timestamp": "2025-11-26T06:40:40.905Z",
+    "duration": 49,
+    "kWh": 6.04
+  },
+  {
+    "timestamp": "2025-12-07T04:03:14.643Z",
+    "duration": 65,
+    "kWh": 8.02
+  },
+  {
+    "timestamp": "2026-08-19T15:28:45.260Z",
+    "duration": 178,
+    "kWh": 21.95
+  },
+  {
+    "timestamp": "2025-05-21T20:26:36.827Z",
+    "duration": 74,
+    "kWh": 9.13
+  },
+  {
+    "timestamp": "2025-09-08T15:21:50.637Z",
+    "duration": 61,
+    "kWh": 22.37
+  },
+  {
+    "timestamp": "2026-07-03T19:38:43.450Z",
+    "duration": 41,
+    "kWh": 15.03
+  },
+  {
+    "timestamp": "2025-09-04T07:00:43.387Z",
+    "duration": 77,
+    "kWh": 14.12
+  },
+  {
+    "timestamp": "2026-06-09T02:28:10.204Z",
+    "duration": 121,
+    "kWh": 22.18
+  },
+  {
+    "timestamp": "2026-07-24T18:42:09.990Z",
+    "duration": 171,
+    "kWh": 62.7
+  },
+  {
+    "timestamp": "2025-11-29T23:21:44.902Z",
+    "duration": 131,
+    "kWh": 24.02
+  },
+  {
+    "timestamp": "2025-03-18T07:52:46.958Z",
+    "duration": 169,
+    "kWh": 30.98
+  },
+  {
+    "timestamp": "2026-03-18T23:35:08.969Z",
+    "duration": 175,
+    "kWh": 32.08
+  },
+  {
+    "timestamp": "2025-08-07T00:12:52.927Z",
+    "duration": 139,
+    "kWh": 17.14
+  },
+  {
+    "timestamp": "2026-06-27T07:17:25.116Z",
+    "duration": 166,
+    "kWh": 30.43
+  },
+  {
+    "timestamp": "2025-02-20T12:19:33.986Z",
+    "duration": 45,
+    "kWh": 8.25
+  },
+  {
+    "timestamp": "2026-09-17T08:58:13.466Z",
+    "duration": 34,
+    "kWh": 6.23
+  },
+  {
+    "timestamp": "2026-09-29T19:30:49.459Z",
+    "duration": 129,
+    "kWh": 15.91
+  },
+  {
+    "timestamp": "2025-08-11T11:34:54.859Z",
+    "duration": 155,
+    "kWh": 19.12
+  },
+  {
+    "timestamp": "2026-02-11T15:07:11.900Z",
+    "duration": 117,
+    "kWh": 14.43
+  },
+  {
+    "timestamp": "2026-01-17T03:22:11.715Z",
+    "duration": 53,
+    "kWh": 6.54
+  },
+  {
+    "timestamp": "2025-01-15T05:57:45.064Z",
+    "duration": 40,
+    "kWh": 4.93
+  },
+  {
+    "timestamp": "2025-08-20T19:37:40.283Z",
+    "duration": 131,
+    "kWh": 16.16
+  },
+  {
+    "timestamp": "2026-04-22T12:55:31.081Z",
+    "duration": 86,
+    "kWh": 15.77
+  },
+  {
+    "timestamp": "2025-01-11T12:23:48.763Z",
+    "duration": 166,
+    "kWh": 60.87
+  },
+  {
+    "timestamp": "2025-03-18T04:35:09.450Z",
+    "duration": 75,
+    "kWh": 27.5
+  },
+  {
+    "timestamp": "2026-09-22T00:02:31.386Z",
+    "duration": 166,
+    "kWh": 20.47
+  },
+  {
+    "timestamp": "2026-04-08T14:42:40.960Z",
+    "duration": 128,
+    "kWh": 46.93
+  },
+  {
+    "timestamp": "2025-04-02T12:39:12.043Z",
+    "duration": 161,
+    "kWh": 19.86
+  },
+  {
+    "timestamp": "2026-06-19T22:29:46.591Z",
+    "duration": 66,
+    "kWh": 12.1
+  },
+  {
+    "timestamp": "2025-06-16T06:08:17.931Z",
+    "duration": 111,
+    "kWh": 20.35
+  },
+  {
+    "timestamp": "2025-06-27T15:27:47.842Z",
+    "duration": 32,
+    "kWh": 3.95
+  },
+  {
+    "timestamp": "2025-08-17T17:44:03.754Z",
+    "duration": 62,
+    "kWh": 7.65
+  },
+  {
+    "timestamp": "2026-01-09T23:45:06.151Z",
+    "duration": 160,
+    "kWh": 19.73
+  },
+  {
+    "timestamp": "2025-04-20T14:50:38.087Z",
+    "duration": 74,
+    "kWh": 13.57
+  },
+  {
+    "timestamp": "2026-05-20T05:26:02.596Z",
+    "duration": 92,
+    "kWh": 11.35
+  },
+  {
+    "timestamp": "2025-09-26T03:11:37.239Z",
+    "duration": 26,
+    "kWh": 4.77
+  },
+  {
+    "timestamp": "2026-08-27T05:53:05.505Z",
+    "duration": 94,
+    "kWh": 11.59
+  },
+  {
+    "timestamp": "2026-07-07T08:01:40.779Z",
+    "duration": 28,
+    "kWh": 5.13
+  },
+  {
+    "timestamp": "2026-04-16T11:02:32.459Z",
+    "duration": 161,
+    "kWh": 19.86
+  },
+  {
+    "timestamp": "2025-09-13T01:08:35.433Z",
+    "duration": 129,
+    "kWh": 15.91
+  },
+  {
+    "timestamp": "2026-09-28T16:46:54.560Z",
+    "duration": 173,
+    "kWh": 21.34
+  },
+  {
+    "timestamp": "2025-02-16T02:17:08.247Z",
+    "duration": 63,
+    "kWh": 7.77
+  },
+  {
+    "timestamp": "2025-09-30T04:09:09.358Z",
+    "duration": 91,
+    "kWh": 16.68
+  },
+  {
+    "timestamp": "2025-09-01T16:54:01.516Z",
+    "duration": 81,
+    "kWh": 29.7
+  },
+  {
+    "timestamp": "2025-10-19T22:21:31.939Z",
+    "duration": 33,
+    "kWh": 4.07
+  },
+  {
+    "timestamp": "2025-10-13T19:02:58.209Z",
+    "duration": 127,
+    "kWh": 23.28
+  },
+  {
+    "timestamp": "2025-01-23T23:10:24.921Z",
+    "duration": 35,
+    "kWh": 12.83
+  },
+  {
+    "timestamp": "2025-04-08T16:40:51.516Z",
+    "duration": 56,
+    "kWh": 10.27
+  },
+  {
+    "timestamp": "2025-03-23T07:44:54.249Z",
+    "duration": 32,
+    "kWh": 11.73
+  },
+  {
+    "timestamp": "2026-02-22T17:30:32.170Z",
+    "duration": 150,
+    "kWh": 55
+  },
+  {
+    "timestamp": "2025-05-24T18:59:16.785Z",
+    "duration": 58,
+    "kWh": 10.63
+  },
+  {
+    "timestamp": "2026-07-24T15:00:31.228Z",
+    "duration": 109,
+    "kWh": 13.44
+  },
+  {
+    "timestamp": "2026-07-23T13:53:37.026Z",
+    "duration": 88,
+    "kWh": 32.27
+  },
+  {
+    "timestamp": "2025-04-03T17:11:22.837Z",
+    "duration": 143,
+    "kWh": 26.22
+  },
+  {
+    "timestamp": "2026-03-18T19:10:29.449Z",
+    "duration": 80,
+    "kWh": 29.33
+  },
+  {
+    "timestamp": "2026-07-01T20:01:02.499Z",
+    "duration": 67,
+    "kWh": 12.28
+  },
+  {
+    "timestamp": "2025-01-10T12:48:26.728Z",
+    "duration": 176,
+    "kWh": 32.27
+  },
+  {
+    "timestamp": "2026-01-17T12:37:06.531Z",
+    "duration": 76,
+    "kWh": 13.93
+  },
+  {
+    "timestamp": "2026-05-24T17:38:02.796Z",
+    "duration": 76,
+    "kWh": 13.93
+  },
+  {
+    "timestamp": "2026-01-04T09:27:46.991Z",
+    "duration": 62,
+    "kWh": 7.65
+  },
+  {
+    "timestamp": "2025-07-14T13:51:47.598Z",
+    "duration": 97,
+    "kWh": 17.78
+  },
+  {
+    "timestamp": "2025-09-17T01:34:14.700Z",
+    "duration": 117,
+    "kWh": 21.45
+  },
+  {
+    "timestamp": "2025-06-04T04:50:14.562Z",
+    "duration": 63,
+    "kWh": 23.1
+  },
+  {
+    "timestamp": "2025-07-28T14:05:19.335Z",
+    "duration": 38,
+    "kWh": 6.97
+  },
+  {
+    "timestamp": "2025-11-29T12:20:58.294Z",
+    "duration": 143,
+    "kWh": 52.43
+  },
+  {
+    "timestamp": "2025-03-24T22:43:28.969Z",
+    "duration": 73,
+    "kWh": 9
+  },
+  {
+    "timestamp": "2025-02-05T12:02:15.201Z",
+    "duration": 144,
+    "kWh": 17.76
+  },
+  {
+    "timestamp": "2025-03-19T07:52:05.900Z",
+    "duration": 95,
+    "kWh": 17.42
+  },
+  {
+    "timestamp": "2025-12-04T06:39:29.328Z",
+    "duration": 52,
+    "kWh": 6.41
+  },
+  {
+    "timestamp": "2026-05-10T13:55:35.995Z",
+    "duration": 54,
+    "kWh": 19.8
+  },
+  {
+    "timestamp": "2025-04-20T01:59:27.551Z",
+    "duration": 94,
+    "kWh": 11.59
+  },
+  {
+    "timestamp": "2025-06-16T08:38:17.852Z",
+    "duration": 56,
+    "kWh": 6.91
+  },
+  {
+    "timestamp": "2025-09-24T16:23:39.064Z",
+    "duration": 130,
+    "kWh": 16.03
+  },
+  {
+    "timestamp": "2026-01-25T22:17:21.330Z",
+    "duration": 61,
+    "kWh": 22.37
+  },
+  {
+    "timestamp": "2026-05-10T19:19:08.934Z",
+    "duration": 155,
+    "kWh": 19.12
+  },
+  {
+    "timestamp": "2026-04-24T03:25:05.181Z",
+    "duration": 165,
+    "kWh": 60.5
+  },
+  {
+    "timestamp": "2026-02-25T01:13:51.421Z",
+    "duration": 85,
+    "kWh": 15.58
+  },
+  {
+    "timestamp": "2026-08-04T17:42:27.033Z",
+    "duration": 68,
+    "kWh": 12.47
+  },
+  {
+    "timestamp": "2026-06-20T04:49:07.115Z",
+    "duration": 84,
+    "kWh": 15.4
+  },
+  {
+    "timestamp": "2026-10-16T00:13:13.069Z",
+    "duration": 157,
+    "kWh": 28.78
+  },
+  {
+    "timestamp": "2026-04-04T06:56:46.635Z",
+    "duration": 53,
+    "kWh": 19.43
+  },
+  {
+    "timestamp": "2025-03-03T10:08:57.526Z",
+    "duration": 53,
+    "kWh": 19.43
+  },
+  {
+    "timestamp": "2025-02-09T11:35:12.558Z",
+    "duration": 49,
+    "kWh": 6.04
+  },
+  {
+    "timestamp": "2025-11-13T13:53:13.103Z",
+    "duration": 35,
+    "kWh": 12.83
+  },
+  {
+    "timestamp": "2025-03-17T17:59:23.169Z",
+    "duration": 28,
+    "kWh": 3.45
+  },
+  {
+    "timestamp": "2026-04-10T04:46:59.832Z",
+    "duration": 113,
+    "kWh": 13.94
+  },
+  {
+    "timestamp": "2025-02-09T17:38:04.707Z",
+    "duration": 36,
+    "kWh": 6.6
+  },
+  {
+    "timestamp": "2026-10-19T18:09:29.236Z",
+    "duration": 107,
+    "kWh": 19.62
+  },
+  {
+    "timestamp": "2025-07-08T03:25:27.926Z",
+    "duration": 130,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-07-04T21:58:41.443Z",
+    "duration": 62,
+    "kWh": 7.65
+  },
+  {
+    "timestamp": "2025-08-11T01:12:12.559Z",
+    "duration": 134,
+    "kWh": 16.53
+  },
+  {
+    "timestamp": "2026-05-18T06:07:58.267Z",
+    "duration": 168,
+    "kWh": 61.6
+  },
+  {
+    "timestamp": "2026-07-30T15:43:12.697Z",
+    "duration": 125,
+    "kWh": 15.42
+  },
+  {
+    "timestamp": "2026-05-11T09:26:37.633Z",
+    "duration": 36,
+    "kWh": 6.6
+  },
+  {
+    "timestamp": "2026-10-18T21:57:35.326Z",
+    "duration": 26,
+    "kWh": 9.53
+  },
+  {
+    "timestamp": "2026-05-11T11:51:47.601Z",
+    "duration": 29,
+    "kWh": 3.58
+  },
+  {
+    "timestamp": "2026-05-02T13:34:03.632Z",
+    "duration": 86,
+    "kWh": 31.53
+  },
+  {
+    "timestamp": "2025-12-28T21:12:52.495Z",
+    "duration": 80,
+    "kWh": 9.87
+  },
+  {
+    "timestamp": "2026-05-29T22:01:30.679Z",
+    "duration": 116,
+    "kWh": 14.31
+  },
+  {
+    "timestamp": "2026-03-27T19:45:18.558Z",
+    "duration": 163,
+    "kWh": 29.88
+  },
+  {
+    "timestamp": "2025-10-10T05:32:00.139Z",
+    "duration": 68,
+    "kWh": 8.39
+  },
+  {
+    "timestamp": "2026-08-26T05:25:29.373Z",
+    "duration": 35,
+    "kWh": 6.42
+  },
+  {
+    "timestamp": "2025-05-22T01:28:38.632Z",
+    "duration": 83,
+    "kWh": 15.22
+  },
+  {
+    "timestamp": "2026-07-30T00:07:55.262Z",
+    "duration": 118,
+    "kWh": 43.27
+  },
+  {
+    "timestamp": "2026-08-13T18:32:19.753Z",
+    "duration": 102,
+    "kWh": 37.4
+  },
+  {
+    "timestamp": "2025-03-13T16:08:44.906Z",
+    "duration": 50,
+    "kWh": 6.17
+  },
+  {
+    "timestamp": "2026-04-12T04:18:24.740Z",
+    "duration": 172,
+    "kWh": 31.53
+  },
+  {
+    "timestamp": "2025-10-15T00:52:33.661Z",
+    "duration": 42,
+    "kWh": 7.7
+  },
+  {
+    "timestamp": "2026-07-10T11:33:16.125Z",
+    "duration": 40,
+    "kWh": 14.67
+  },
+  {
+    "timestamp": "2026-01-18T05:02:17.993Z",
+    "duration": 84,
+    "kWh": 30.8
+  },
+  {
+    "timestamp": "2026-05-23T16:07:47.773Z",
+    "duration": 94,
+    "kWh": 11.59
+  },
+  {
+    "timestamp": "2026-10-04T10:51:44.769Z",
+    "duration": 87,
+    "kWh": 10.73
+  },
+  {
+    "timestamp": "2026-05-13T22:08:39.094Z",
+    "duration": 130,
+    "kWh": 47.67
+  },
+  {
+    "timestamp": "2025-04-21T19:36:23.406Z",
+    "duration": 67,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2026-05-28T04:05:47.411Z",
+    "duration": 58,
+    "kWh": 21.27
+  },
+  {
+    "timestamp": "2025-10-20T12:12:46.368Z",
+    "duration": 168,
+    "kWh": 20.72
+  },
+  {
+    "timestamp": "2025-09-21T23:57:10.903Z",
+    "duration": 171,
+    "kWh": 62.7
+  },
+  {
+    "timestamp": "2026-06-18T02:44:33.615Z",
+    "duration": 111,
+    "kWh": 40.7
+  },
+  {
+    "timestamp": "2025-06-18T07:14:33.805Z",
+    "duration": 27,
+    "kWh": 4.95
+  },
+  {
+    "timestamp": "2026-05-24T19:29:54.802Z",
+    "duration": 167,
+    "kWh": 61.23
+  },
+  {
+    "timestamp": "2026-05-26T19:12:15.976Z",
+    "duration": 170,
+    "kWh": 31.17
+  },
+  {
+    "timestamp": "2026-07-02T00:22:21.338Z",
+    "duration": 108,
+    "kWh": 13.32
+  },
+  {
+    "timestamp": "2026-08-02T08:27:28.986Z",
+    "duration": 66,
+    "kWh": 12.1
+  },
+  {
+    "timestamp": "2026-02-17T05:09:38.849Z",
+    "duration": 127,
+    "kWh": 15.66
+  },
+  {
+    "timestamp": "2025-08-08T09:26:45.686Z",
+    "duration": 69,
+    "kWh": 25.3
+  },
+  {
+    "timestamp": "2025-04-05T07:43:56.832Z",
+    "duration": 76,
+    "kWh": 9.37
+  },
+  {
+    "timestamp": "2025-11-06T06:11:44.942Z",
+    "duration": 179,
+    "kWh": 32.82
+  },
+  {
+    "timestamp": "2026-02-27T02:28:11.593Z",
+    "duration": 151,
+    "kWh": 55.37
+  },
+  {
+    "timestamp": "2026-04-01T00:19:54.785Z",
+    "duration": 112,
+    "kWh": 20.53
+  },
+  {
+    "timestamp": "2025-03-16T19:32:36.157Z",
+    "duration": 63,
+    "kWh": 11.55
+  },
+  {
+    "timestamp": "2025-11-24T20:13:54.828Z",
+    "duration": 34,
+    "kWh": 6.23
+  },
+  {
+    "timestamp": "2025-11-19T08:16:59.077Z",
+    "duration": 44,
+    "kWh": 8.07
+  },
+  {
+    "timestamp": "2026-09-13T20:39:57.897Z",
+    "duration": 89,
+    "kWh": 16.32
+  },
+  {
+    "timestamp": "2025-05-13T00:01:47.039Z",
+    "duration": 82,
+    "kWh": 30.07
+  },
+  {
+    "timestamp": "2026-01-17T14:52:54.039Z",
+    "duration": 171,
+    "kWh": 62.7
+  },
+  {
+    "timestamp": "2025-10-05T07:51:42.741Z",
+    "duration": 61,
+    "kWh": 11.18
+  },
+  {
+    "timestamp": "2025-07-02T20:12:17.561Z",
+    "duration": 170,
+    "kWh": 20.97
+  },
+  {
+    "timestamp": "2025-01-30T21:38:07.731Z",
+    "duration": 174,
+    "kWh": 31.9
+  },
+  {
+    "timestamp": "2025-10-02T05:40:47.221Z",
+    "duration": 63,
+    "kWh": 23.1
+  },
+  {
+    "timestamp": "2026-08-28T11:57:14.740Z",
+    "duration": 106,
+    "kWh": 38.87
+  },
+  {
+    "timestamp": "2026-06-27T03:18:49.556Z",
+    "duration": 149,
+    "kWh": 54.63
+  },
+  {
+    "timestamp": "2026-01-06T04:45:31.005Z",
+    "duration": 180,
+    "kWh": 33
+  },
+  {
+    "timestamp": "2025-09-01T13:11:37.945Z",
+    "duration": 119,
+    "kWh": 14.68
+  },
+  {
+    "timestamp": "2025-12-06T03:02:54.460Z",
+    "duration": 140,
+    "kWh": 25.67
+  },
+  {
+    "timestamp": "2026-08-05T18:51:38.231Z",
+    "duration": 129,
+    "kWh": 23.65
+  },
+  {
+    "timestamp": "2026-04-22T13:20:59.486Z",
+    "duration": 48,
+    "kWh": 8.8
+  },
+  {
+    "timestamp": "2026-01-23T15:40:26.840Z",
+    "duration": 56,
+    "kWh": 10.27
+  },
+  {
+    "timestamp": "2026-10-03T16:21:39.228Z",
+    "duration": 48,
+    "kWh": 8.8
+  },
+  {
+    "timestamp": "2025-10-20T03:07:02.160Z",
+    "duration": 57,
+    "kWh": 10.45
+  },
+  {
+    "timestamp": "2026-09-12T07:52:37.435Z",
+    "duration": 53,
+    "kWh": 6.54
+  },
+  {
+    "timestamp": "2026-08-09T23:52:23.535Z",
+    "duration": 38,
+    "kWh": 4.69
+  },
+  {
+    "timestamp": "2025-10-28T05:36:04.291Z",
+    "duration": 94,
+    "kWh": 34.47
+  },
+  {
+    "timestamp": "2025-01-09T06:56:23.542Z",
+    "duration": 142,
+    "kWh": 52.07
+  },
+  {
+    "timestamp": "2025-01-23T12:19:26.968Z",
+    "duration": 51,
+    "kWh": 18.7
+  },
+  {
+    "timestamp": "2025-09-14T05:47:53.070Z",
+    "duration": 38,
+    "kWh": 13.93
+  },
+  {
+    "timestamp": "2026-10-21T06:38:21.535Z",
+    "duration": 88,
+    "kWh": 10.85
+  },
+  {
+    "timestamp": "2025-11-02T04:16:25.210Z",
+    "duration": 27,
+    "kWh": 3.33
+  },
+  {
+    "timestamp": "2026-03-27T22:22:05.331Z",
+    "duration": 172,
+    "kWh": 21.21
+  },
+  {
+    "timestamp": "2025-07-30T07:04:04.094Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-09-17T17:28:53.711Z",
+    "duration": 154,
+    "kWh": 28.23
+  },
+  {
+    "timestamp": "2026-04-02T08:29:09.925Z",
+    "duration": 125,
+    "kWh": 15.42
+  },
+  {
+    "timestamp": "2026-02-10T10:09:05.525Z",
+    "duration": 84,
+    "kWh": 15.4
+  },
+  {
+    "timestamp": "2026-05-17T11:47:17.149Z",
+    "duration": 145,
+    "kWh": 17.88
+  },
+  {
+    "timestamp": "2025-04-13T11:32:28.049Z",
+    "duration": 127,
+    "kWh": 15.66
+  },
+  {
+    "timestamp": "2026-02-26T06:11:52.997Z",
+    "duration": 119,
+    "kWh": 21.82
+  },
+  {
+    "timestamp": "2026-07-17T15:35:29.254Z",
+    "duration": 132,
+    "kWh": 16.28
+  },
+  {
+    "timestamp": "2025-08-15T23:05:20.682Z",
+    "duration": 94,
+    "kWh": 11.59
+  },
+  {
+    "timestamp": "2025-03-19T09:13:19.371Z",
+    "duration": 136,
+    "kWh": 16.77
+  },
+  {
+    "timestamp": "2025-03-30T10:16:26.462Z",
+    "duration": 73,
+    "kWh": 26.77
+  },
+  {
+    "timestamp": "2026-02-18T11:54:58.519Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-09-17T14:23:43.994Z",
+    "duration": 48,
+    "kWh": 5.92
+  },
+  {
+    "timestamp": "2025-12-13T02:02:03.875Z",
+    "duration": 60,
+    "kWh": 22
+  },
+  {
+    "timestamp": "2026-10-19T19:56:30.760Z",
+    "duration": 74,
+    "kWh": 13.57
+  },
+  {
+    "timestamp": "2025-02-24T07:59:12.011Z",
+    "duration": 43,
+    "kWh": 5.3
+  },
+  {
+    "timestamp": "2025-03-26T10:36:56.226Z",
+    "duration": 152,
+    "kWh": 18.75
+  },
+  {
+    "timestamp": "2025-10-05T18:30:09.642Z",
+    "duration": 72,
+    "kWh": 13.2
+  },
+  {
+    "timestamp": "2025-12-10T17:52:50.077Z",
+    "duration": 88,
+    "kWh": 10.85
+  },
+  {
+    "timestamp": "2026-06-30T11:02:18.283Z",
+    "duration": 170,
+    "kWh": 62.33
+  },
+  {
+    "timestamp": "2025-06-10T18:50:18.004Z",
+    "duration": 74,
+    "kWh": 13.57
+  },
+  {
+    "timestamp": "2025-07-08T07:02:08.887Z",
+    "duration": 73,
+    "kWh": 9
+  },
+  {
+    "timestamp": "2025-02-25T16:15:12.650Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-04-18T05:11:38.878Z",
+    "duration": 70,
+    "kWh": 8.63
+  },
+  {
+    "timestamp": "2026-06-12T10:45:20.437Z",
+    "duration": 74,
+    "kWh": 9.13
+  },
+  {
+    "timestamp": "2025-02-19T08:15:37.573Z",
+    "duration": 177,
+    "kWh": 64.9
+  },
+  {
+    "timestamp": "2025-03-26T14:31:59.439Z",
+    "duration": 88,
+    "kWh": 16.13
+  },
+  {
+    "timestamp": "2026-04-09T12:41:20.804Z",
+    "duration": 65,
+    "kWh": 11.92
+  },
+  {
+    "timestamp": "2026-07-31T01:00:23.979Z",
+    "duration": 173,
+    "kWh": 63.43
+  },
+  {
+    "timestamp": "2026-03-14T13:05:11.563Z",
+    "duration": 90,
+    "kWh": 16.5
+  },
+  {
+    "timestamp": "2025-12-20T02:33:56.143Z",
+    "duration": 133,
+    "kWh": 48.77
+  },
+  {
+    "timestamp": "2025-11-27T20:34:48.294Z",
+    "duration": 130,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2025-10-19T13:57:26.986Z",
+    "duration": 171,
+    "kWh": 31.35
+  },
+  {
+    "timestamp": "2025-06-30T05:49:02.834Z",
+    "duration": 27,
+    "kWh": 3.33
+  },
+  {
+    "timestamp": "2026-07-09T21:55:46.137Z",
+    "duration": 110,
+    "kWh": 40.33
+  },
+  {
+    "timestamp": "2026-03-20T01:25:40.942Z",
+    "duration": 149,
+    "kWh": 27.32
+  },
+  {
+    "timestamp": "2025-09-21T09:36:14.493Z",
+    "duration": 119,
+    "kWh": 43.63
+  },
+  {
+    "timestamp": "2026-09-08T03:22:04.815Z",
+    "duration": 144,
+    "kWh": 26.4
+  },
+  {
+    "timestamp": "2025-10-12T11:45:43.857Z",
+    "duration": 76,
+    "kWh": 9.37
+  },
+  {
+    "timestamp": "2026-05-04T16:45:36.201Z",
+    "duration": 114,
+    "kWh": 41.8
+  },
+  {
+    "timestamp": "2025-07-30T10:38:40.176Z",
+    "duration": 118,
+    "kWh": 43.27
+  },
+  {
+    "timestamp": "2026-06-30T03:38:30.851Z",
+    "duration": 141,
+    "kWh": 51.7
+  },
+  {
+    "timestamp": "2026-02-22T08:00:57.181Z",
+    "duration": 141,
+    "kWh": 17.39
+  },
+  {
+    "timestamp": "2025-08-29T19:08:43.183Z",
+    "duration": 62,
+    "kWh": 7.65
+  },
+  {
+    "timestamp": "2025-12-13T11:39:28.235Z",
+    "duration": 49,
+    "kWh": 6.04
+  },
+  {
+    "timestamp": "2026-01-27T21:25:26.133Z",
+    "duration": 132,
+    "kWh": 16.28
+  },
+  {
+    "timestamp": "2025-11-25T21:28:12.285Z",
+    "duration": 132,
+    "kWh": 48.4
+  },
+  {
+    "timestamp": "2026-02-16T06:42:46.348Z",
+    "duration": 49,
+    "kWh": 8.98
+  },
+  {
+    "timestamp": "2026-03-02T17:23:01.368Z",
+    "duration": 145,
+    "kWh": 17.88
+  },
+  {
+    "timestamp": "2025-07-21T18:45:38.527Z",
+    "duration": 153,
+    "kWh": 18.87
+  },
+  {
+    "timestamp": "2026-10-17T13:03:13.250Z",
+    "duration": 68,
+    "kWh": 24.93
+  },
+  {
+    "timestamp": "2026-01-01T11:45:51.144Z",
+    "duration": 118,
+    "kWh": 43.27
+  },
+  {
+    "timestamp": "2026-08-22T07:13:09.058Z",
+    "duration": 140,
+    "kWh": 51.33
+  },
+  {
+    "timestamp": "2025-05-22T14:57:33.725Z",
+    "duration": 158,
+    "kWh": 28.97
+  },
+  {
+    "timestamp": "2025-12-04T19:27:20.455Z",
+    "duration": 141,
+    "kWh": 25.85
+  },
+  {
+    "timestamp": "2025-11-20T01:49:51.473Z",
+    "duration": 63,
+    "kWh": 11.55
+  },
+  {
+    "timestamp": "2025-12-03T17:15:15.492Z",
+    "duration": 176,
+    "kWh": 64.53
+  },
+  {
+    "timestamp": "2025-06-20T14:17:09.957Z",
+    "duration": 68,
+    "kWh": 24.93
+  },
+  {
+    "timestamp": "2026-06-11T18:08:13.161Z",
+    "duration": 166,
+    "kWh": 60.87
+  },
+  {
+    "timestamp": "2026-05-16T01:59:46.066Z",
+    "duration": 65,
+    "kWh": 11.92
+  },
+  {
+    "timestamp": "2025-11-06T10:45:28.628Z",
+    "duration": 106,
+    "kWh": 19.43
+  },
+  {
+    "timestamp": "2025-07-19T07:00:40.958Z",
+    "duration": 139,
+    "kWh": 25.48
+  },
+  {
+    "timestamp": "2026-04-01T21:21:25.250Z",
+    "duration": 168,
+    "kWh": 61.6
+  },
+  {
+    "timestamp": "2025-11-24T18:26:10.645Z",
+    "duration": 89,
+    "kWh": 10.98
+  },
+  {
+    "timestamp": "2025-03-18T08:17:47.815Z",
+    "duration": 125,
+    "kWh": 15.42
+  },
+  {
+    "timestamp": "2025-10-16T09:20:17.389Z",
+    "duration": 61,
+    "kWh": 22.37
+  },
+  {
+    "timestamp": "2025-03-07T17:21:17.689Z",
+    "duration": 51,
+    "kWh": 6.29
+  },
+  {
+    "timestamp": "2025-04-11T07:37:12.751Z",
+    "duration": 47,
+    "kWh": 8.62
+  },
+  {
+    "timestamp": "2025-02-15T16:25:42.556Z",
+    "duration": 47,
+    "kWh": 8.62
+  },
+  {
+    "timestamp": "2026-04-03T10:57:36.370Z",
+    "duration": 77,
+    "kWh": 14.12
+  },
+  {
+    "timestamp": "2026-04-18T17:22:40.253Z",
+    "duration": 53,
+    "kWh": 19.43
+  },
+  {
+    "timestamp": "2025-09-27T06:15:42.220Z",
+    "duration": 103,
+    "kWh": 12.7
+  },
+  {
+    "timestamp": "2026-08-27T14:50:00.156Z",
+    "duration": 33,
+    "kWh": 4.07
+  },
+  {
+    "timestamp": "2025-11-15T12:47:44.362Z",
+    "duration": 77,
+    "kWh": 14.12
+  },
+  {
+    "timestamp": "2026-09-25T12:53:25.066Z",
+    "duration": 54,
+    "kWh": 19.8
+  },
+  {
+    "timestamp": "2025-04-17T17:52:30.430Z",
+    "duration": 122,
+    "kWh": 15.05
+  },
+  {
+    "timestamp": "2025-02-06T23:38:53.588Z",
+    "duration": 170,
+    "kWh": 31.17
+  },
+  {
+    "timestamp": "2025-10-02T19:05:01.482Z",
+    "duration": 45,
+    "kWh": 8.25
+  },
+  {
+    "timestamp": "2025-01-21T03:28:47.728Z",
+    "duration": 92,
+    "kWh": 33.73
+  },
+  {
+    "timestamp": "2025-05-28T13:18:09.549Z",
+    "duration": 118,
+    "kWh": 43.27
+  },
+  {
+    "timestamp": "2025-06-22T13:22:59.964Z",
+    "duration": 53,
+    "kWh": 9.72
+  },
+  {
+    "timestamp": "2025-06-28T12:51:49.733Z",
+    "duration": 126,
+    "kWh": 15.54
+  },
+  {
+    "timestamp": "2025-06-30T22:55:36.343Z",
+    "duration": 112,
+    "kWh": 41.07
+  },
+  {
+    "timestamp": "2026-07-23T20:56:17.265Z",
+    "duration": 144,
+    "kWh": 26.4
+  },
+  {
+    "timestamp": "2026-04-10T13:51:22.431Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-01-03T13:51:15.762Z",
+    "duration": 143,
+    "kWh": 26.22
+  },
+  {
+    "timestamp": "2025-02-03T18:19:35.676Z",
+    "duration": 121,
+    "kWh": 44.37
+  },
+  {
+    "timestamp": "2026-07-21T19:39:44.154Z",
+    "duration": 47,
+    "kWh": 17.23
+  },
+  {
+    "timestamp": "2026-04-16T09:18:14.843Z",
+    "duration": 160,
+    "kWh": 29.33
+  },
+  {
+    "timestamp": "2025-04-11T02:06:21.196Z",
+    "duration": 81,
+    "kWh": 9.99
+  },
+  {
+    "timestamp": "2025-08-08T13:00:59.204Z",
+    "duration": 73,
+    "kWh": 9
+  },
+  {
+    "timestamp": "2025-06-28T19:00:54.186Z",
+    "duration": 60,
+    "kWh": 7.4
+  },
+  {
+    "timestamp": "2026-10-11T12:10:31.803Z",
+    "duration": 76,
+    "kWh": 27.87
+  },
+  {
+    "timestamp": "2026-03-10T08:00:49.854Z",
+    "duration": 91,
+    "kWh": 33.37
+  },
+  {
+    "timestamp": "2026-01-07T07:02:03.119Z",
+    "duration": 58,
+    "kWh": 7.15
+  },
+  {
+    "timestamp": "2026-07-01T20:14:56.088Z",
+    "duration": 149,
+    "kWh": 27.32
+  },
+  {
+    "timestamp": "2025-12-23T02:37:06.597Z",
+    "duration": 131,
+    "kWh": 48.03
+  },
+  {
+    "timestamp": "2025-10-08T07:41:44.043Z",
+    "duration": 116,
+    "kWh": 14.31
+  },
+  {
+    "timestamp": "2025-12-24T01:27:05.072Z",
+    "duration": 51,
+    "kWh": 18.7
+  },
+  {
+    "timestamp": "2025-05-24T21:40:58.893Z",
+    "duration": 67,
+    "kWh": 12.28
+  },
+  {
+    "timestamp": "2025-05-27T05:24:21.405Z",
+    "duration": 144,
+    "kWh": 17.76
+  },
+  {
+    "timestamp": "2026-07-16T00:14:26.050Z",
+    "duration": 154,
+    "kWh": 56.47
+  },
+  {
+    "timestamp": "2025-03-28T06:27:45.925Z",
+    "duration": 79,
+    "kWh": 9.74
+  },
+  {
+    "timestamp": "2026-01-29T02:01:50.211Z",
+    "duration": 44,
+    "kWh": 16.13
+  },
+  {
+    "timestamp": "2025-02-22T04:25:17.692Z",
+    "duration": 25,
+    "kWh": 4.58
+  },
+  {
+    "timestamp": "2025-07-22T23:15:37.627Z",
+    "duration": 92,
+    "kWh": 11.35
+  },
+  {
+    "timestamp": "2026-09-08T04:27:58.741Z",
+    "duration": 65,
+    "kWh": 23.83
+  },
+  {
+    "timestamp": "2026-09-14T10:53:25.856Z",
+    "duration": 131,
+    "kWh": 48.03
+  },
+  {
+    "timestamp": "2026-06-10T19:05:18.924Z",
+    "duration": 147,
+    "kWh": 18.13
+  },
+  {
+    "timestamp": "2026-10-15T09:30:24.049Z",
+    "duration": 167,
+    "kWh": 20.6
+  },
+  {
+    "timestamp": "2026-03-09T14:44:23.501Z",
+    "duration": 67,
+    "kWh": 24.57
+  },
+  {
+    "timestamp": "2025-07-16T08:53:24.579Z",
+    "duration": 102,
+    "kWh": 12.58
+  },
+  {
+    "timestamp": "2025-08-09T00:17:56.875Z",
+    "duration": 167,
+    "kWh": 61.23
+  },
+  {
+    "timestamp": "2026-06-12T11:40:43.232Z",
+    "duration": 128,
+    "kWh": 46.93
+  },
+  {
+    "timestamp": "2026-10-14T14:38:30.378Z",
+    "duration": 148,
+    "kWh": 27.13
+  },
+  {
+    "timestamp": "2026-06-18T08:39:54.608Z",
+    "duration": 133,
+    "kWh": 24.38
+  },
+  {
+    "timestamp": "2025-04-13T13:55:56.072Z",
+    "duration": 39,
+    "kWh": 7.15
+  },
+  {
+    "timestamp": "2025-04-30T14:28:04.995Z",
+    "duration": 166,
+    "kWh": 30.43
+  },
+  {
+    "timestamp": "2025-07-13T15:53:59.774Z",
+    "duration": 145,
+    "kWh": 53.17
+  },
+  {
+    "timestamp": "2025-12-04T05:06:07.156Z",
+    "duration": 112,
+    "kWh": 13.81
+  },
+  {
+    "timestamp": "2025-12-31T12:02:20.701Z",
+    "duration": 93,
+    "kWh": 11.47
+  },
+  {
+    "timestamp": "2026-07-18T08:46:40.944Z",
+    "duration": 76,
+    "kWh": 9.37
+  },
+  {
+    "timestamp": "2026-05-14T22:36:54.096Z",
+    "duration": 165,
+    "kWh": 20.35
+  },
+  {
+    "timestamp": "2025-09-05T05:36:37.323Z",
+    "duration": 174,
+    "kWh": 21.46
+  },
+  {
+    "timestamp": "2026-04-09T18:37:01.046Z",
+    "duration": 117,
+    "kWh": 21.45
+  },
+  {
+    "timestamp": "2025-08-23T20:28:23.631Z",
+    "duration": 31,
+    "kWh": 11.37
+  },
+  {
+    "timestamp": "2026-06-04T08:55:36.854Z",
+    "duration": 137,
+    "kWh": 50.23
+  },
+  {
+    "timestamp": "2026-09-02T05:13:17.488Z",
+    "duration": 88,
+    "kWh": 10.85
+  },
+  {
+    "timestamp": "2025-01-18T15:35:19.108Z",
+    "duration": 102,
+    "kWh": 18.7
+  }
+]

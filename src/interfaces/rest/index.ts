@@ -12,6 +12,7 @@ const openApiDocument = JSON.parse(readFileSync(path.join(__dirname, 'openapi.js
 
 export function initRestApp(useCases: UseCases): Server {
   const app = express();
+  app.set('query parser', 'extended');
   const controllers = initControllers(useCases);
 
   app.use(express.json());
@@ -62,7 +63,7 @@ export function initRestApp(useCases: UseCases): Server {
   });
 
   const server = app.listen(port, () => {
-    console.log(`Movies API running at http://localhost:${port}`);
+    console.log(`Generic API running at http://localhost:${port}`);
   });
 
   return server;

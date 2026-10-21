@@ -1,12 +1,12 @@
 import Repositories from "../../application/ports";
-import InMemoryMovieRepository from "../repositories/InMemoryMovieRepository";
+import InMemoryGenericRepository from '../repositories/InMemoryGenericRepository';
 
 export default async function createInMemoryRepository(): Promise<{
     repositories: Repositories;
     close: () => Promise<void>;
 }> {
     return {
-        repositories: { movies: new InMemoryMovieRepository() },
+        repositories: { generic: new InMemoryGenericRepository() },
         close: async () => { }
     }
 }

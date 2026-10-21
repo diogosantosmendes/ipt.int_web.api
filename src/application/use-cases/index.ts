@@ -1,12 +1,12 @@
-import MovieUseCases from './MovieUseCases';
+import GenericUseCases from './GenericUseCases';
 import Repositories from '../ports';
 
 export default interface UseCases {
-  movies: MovieUseCases;
+  generic: GenericUseCases;
 }
 
 export function initUseCases(repositories: Repositories): UseCases {
   return {
-    movies: new MovieUseCases(repositories),
+    generic: new GenericUseCases(repositories.generic),
   };
 }

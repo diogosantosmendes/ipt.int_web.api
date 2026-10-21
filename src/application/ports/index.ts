@@ -1,11 +1,11 @@
-import MovieRepository from './MovieRepository';
+import GenericRepository from './GenericRepository';
 
 export default interface Repositories {
-  movies: MovieRepository;
+  generic: GenericRepository;
 }
 
-export function initRepositories(moviesRepository: MovieRepository): Repositories {
+export function initRepositories(genericRepository: GenericRepository): Repositories {
   return {
-    movies: moviesRepository,
+    generic: genericRepository,
   };
 }

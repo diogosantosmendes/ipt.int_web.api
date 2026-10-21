@@ -7,16 +7,17 @@ const document = swaggerJSDoc({
   definition: {
     openapi: '3.0.3',
     info: {
-      title: 'Movies API',
+      title: 'Generic API',
       version: '1.0.0',
-      description: 'REST API for managing movies.',
+      description: 'Generic REST API for entity collections.',
     },
     servers: [
+        { url: 'http://localhost:3000', description: 'Development server' },
         { url: 'https://ipt-int-web-api.onrender.com', description: 'Production server' }
-    ],
+      ],
   },
   apis: [
-    path.join(rootDirectory, 'src/interfaces/rest/controllers/MovieController.ts'),
+    path.join(rootDirectory, 'src/interfaces/rest/controllers/GenericController.ts'),
     path.join(rootDirectory, 'src/interfaces/rest/index.ts'),
   ],
 });
