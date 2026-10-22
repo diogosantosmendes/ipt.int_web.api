@@ -12,8 +12,7 @@ async function initRepositories(): Promise<{
     const { default: createMongoRepository } = await import('./src/infrastructure/database/mongo');
     return await createMongoRepository(process.env.MONGODB_URI);
   } else {
-    const { default: createInMemoryRepository } = await import('./src/infrastructure/database/in-memory');
-    return await createInMemoryRepository();
+    throw new Error('No database configuration found');
   }
 }
 
