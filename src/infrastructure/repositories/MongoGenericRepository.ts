@@ -1,4 +1,4 @@
-import { Collection, Db, Document } from 'mongodb';
+import { Collection, Db, Document, ObjectId } from 'mongodb';
 import { randomUUID } from 'node:crypto';
 import GenericRepository, { GenericListOptions, GenericRecord } from '../../application/ports/GenericRepository';
 
@@ -20,7 +20,7 @@ export default class MongoGenericRepository implements GenericRepository {
   }
 
   async getById(collectionName: string, id: string): Promise<GenericRecord | null> {
-    const document = await this.collection(collectionName).findOne({ id });
+    const document = await this.collection(collectionName).findOne({ _id: new ObjectId(id) });
     return document ? this.toRecord(document) : null;
   }
 
@@ -33,7 +33,7 @@ export default class MongoGenericRepository implements GenericRepository {
   async update(collectionName: string, id: string, value: Record<string, unknown>): Promise<GenericRecord | null> {
     const { id: _ignoredId, ...changes } = value;
     const document = await this.collection(collectionName).findOneAndUpdate(
-      { id },
+      { _id: new ObjectId(id) },
       { $set: changes },
       { returnDocument: 'after' },
     );
@@ -41,7 +41,7 @@ export default class MongoGenericRepository implements GenericRepository {
   }
 
   async delete(collectionName: string, id: string): Promise<boolean> {
-    const result = await this.collection(collectionName).deleteOne({ id });
+    const result = await this.collection(collectionName).deleteOne({ _id: new ObjectId(id) });
     return result.deletedCount === 1;
   }
 
@@ -50,7 +50,8 @@ export default class MongoGenericRepository implements GenericRepository {
   }
 
   private toRecord(document: Document): GenericRecord {
-    const { _id: _ignoredMongoId, ...record } = document;
-    return record as GenericRecord;
+    const { _id: id, ...record } = document;
+
+    return { ...record, id: id.toString() } as GenericRecord;
   }
 }
