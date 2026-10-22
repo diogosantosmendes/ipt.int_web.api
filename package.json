@@ -16,12 +16,14 @@
   "author": "diogo.mendes@hotmail.com",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^16.4.7",
     "express": "^5.2.1",
     "mongodb": "^7.6.0",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.20.1",

@@ -6,12 +6,20 @@ import { initControllers } from './controllers';
 import createRoutes from './routes';
 import { Server } from 'http';
 import swaggerUi from 'swagger-ui-express';
+import cors from 'cors';
 
 const port = Number(process.env.PORT) || 3000;
 const openApiDocument = JSON.parse(readFileSync(path.join(__dirname, 'openapi.json'), 'utf8'));
 
 export function initRestApp(useCases: UseCases): Server {
   const app = express();
+
+  app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+  }));
+
   app.set('query parser', 'extended');
   const controllers = initControllers(useCases);
 
