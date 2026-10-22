@@ -1,15 +1,14 @@
-export type GenericRecord = Record<string, unknown> & { id: string };
-export type GenericSort = Record<string, 1 | -1>;
+export type GenericRecord = Record<string, unknown>;
 
-export interface GenericListOptions {
+export interface GenericPageOptions {
   filters: Record<string, unknown>;
-  sort: GenericSort;
+  sort?: string;
   page: number;
   size: number;
 }
 
 export default interface GenericRepository {
-  getPage(entity: string, options: GenericListOptions): Promise<GenericRecord[]>;
+  getPage(entity: string, options: GenericPageOptions): Promise<GenericRecord[]>;
   count(entity: string, filters: Record<string, unknown>): Promise<number>;
   getById(entity: string, id: string): Promise<GenericRecord | null>;
   create(entity: string, value: Record<string, unknown>): Promise<GenericRecord>;

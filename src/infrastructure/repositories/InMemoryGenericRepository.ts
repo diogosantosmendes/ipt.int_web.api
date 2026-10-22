@@ -1,10 +1,10 @@
 import { randomUUID } from 'node:crypto';
-import GenericRepository, { GenericListOptions, GenericRecord } from '../../application/ports/GenericRepository';
+import GenericRepository, { GenericPageOptions, GenericRecord } from '../../application/ports/GenericRepository';
 
 export default class InMemoryGenericRepository implements GenericRepository {
   private readonly collections = new Map<string, Map<string, GenericRecord>>();
 
-  async getPage(entity: string, options: GenericListOptions): Promise<GenericRecord[]> {
+  async getPage(entity: string, options: GenericPageOptions): Promise<GenericRecord[]> {
     const records = [...this.collection(entity).values()]
       .filter((record) => this.matches(record, options.filters));
 

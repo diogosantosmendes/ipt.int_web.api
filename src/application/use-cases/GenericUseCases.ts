@@ -1,9 +1,9 @@
-import GenericRepository, { GenericListOptions, GenericRecord } from '../ports/GenericRepository';
+import GenericRepository, { GenericPageOptions, GenericRecord } from '../ports/GenericRepository';
 
 export default class GenericUseCases {
   constructor(private readonly repository: GenericRepository) {}
 
-  list(entity: string, options: GenericListOptions): Promise<GenericRecord[]> {
+  list(entity: string, options: GenericPageOptions): Promise<GenericRecord[]> {
     return this.repository.getPage(entity, options);
   }
 
