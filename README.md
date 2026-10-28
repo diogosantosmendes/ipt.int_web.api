@@ -23,9 +23,26 @@ Available variables:
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017
 MONGODB_DATABASE=generic_api
+GOOGLE_CLIENT_ID=your-google-oauth-web-client-id
 ```
 
 When `MONGODB_URI` is not set, the API uses an in-memory repository. Do not commit `.env` or place database credentials in the Dockerfile.
+
+The API requires `GOOGLE_CLIENT_ID` at startup. It is the public OAuth 2.0 **Web application** client ID used by the frontend. The API validates Google's signed ID tokens against Google's public signing keys and this audience; no client secret is needed by the API.
+
+### Google sign-in setup
+
+Google OAuth sign-in has no charge for this use. You do not need to create an Entra application or a Google service account.
+
+1. Open the [Google Cloud Console](https://console.cloud.google.com/) and create or select a project.
+2. Open **Google Auth Platform** and configure the app branding and audience ([Google setup guide](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)). Choose **Internal** only if IPT provides a Google Workspace organization and all users sign in through it. Otherwise choose **External** and add student Google accounts as test users while the app is in testing; publishing or verification requirements depend on the app and scopes.
+3. Under **Google Auth Platform → Clients**, create an OAuth client with application type **Web application**. Add the frontend's development and production origins under **Authorized JavaScript origins** (for example, `http://localhost:5173` and `https://your-frontend.example`). This API uses the Google Identity Services JavaScript credential flow, so no redirect URI is needed.
+4. Use only the basic `openid`, `email`, and `profile` sign-in claims. Copy the client ID ending in `.apps.googleusercontent.com` to `GOOGLE_CLIENT_ID` in the API environment and use the same client ID in the frontend's Google Identity Services configuration. The client ID is public; do not put a client secret in the frontend or this API.
+5. In the frontend, use Google Identity Services to obtain its `credential` ID token and send it with API calls as `Authorization: Bearer <google-id-token>`. The API checks its signature, issuer, expiration, audience, Google-verified email, and exact `@ipt.pt` suffix ([Google token verification guidance](https://developers.google.com/identity/gsi/web/guides/verify-google-id-token)). The frontend must send the **ID token**, not an OAuth access token.
+
+The IPT email domain is currently Microsoft-managed, not necessarily a Google Workspace domain. Students can use Google sign-in with an `@ipt.pt` address only if that address is registered and verified as a Google Account. Without Google Workspace, Google will not issue the `hd` (hosted-domain) claim, so the API allows the verified email suffix but cannot prove that the account is managed by IPT. If IPT requires organization-managed identities, an administrator must enable Google Workspace/Cloud Identity for `ipt.pt`, or provide access to an identity provider that supports the existing Microsoft accounts.
+
+The API does not provide a login page, OAuth callback, or session. `/health`, `/docs`, and `/openapi.json` remain public; all CRUD endpoints require the Google ID token. Student-number URLs currently require sign-in but are not checked against the signed-in email.
 
 For MongoDB Atlas, use a connection string such as:
 
@@ -132,6 +149,8 @@ Production Swagger UI:
 
 Entity names must start with a letter and contain only letters, numbers, underscores, or hyphens. Student numbers must contain digits only. MongoDB stores class collections with the `classes_` prefix (for example, `/classes/music` uses `classes_music`) and student collections with the student number as the prefix (for example, `/20178/car` uses `20178_car`). When MongoDB is not configured, the same API uses isolated in-memory collections.
 
+All CRUD endpoints require a Google ID token with a verified `@ipt.pt` email. `/health`, `/docs`, and `/openapi.json` remain public. A student-number URL is currently only gated by IPT email verification; the API does not yet verify that the number belongs to the signed-in user. Add that ownership check when the student-number-to-email mapping is defined.
+
 Paginated list endpoints accept `page` (1-based, default `1`), `size` (default `20`, maximum `100`), `sort` (for example, `sort=timestamp:desc,location:asc`), and filters under `filter`. Filters support scalar equality, arrays (matched with MongoDB `$in` semantics), nested fields, and the allowlisted operators `$eq`, `$ne`, `$gt`, `$gte`, `$lt`, `$lte`, `$in`, `$nin`, and `$exists`. For example, `filter[location][$exists]=true` checks for a present field, and `filter[timestamp][$gt]=2026-01-02` compares against a date value. URL-encode brackets and dollar signs when constructing requests. The matching `/count` endpoint accepts the same filters and ignores pagination and sort parameters. There is no unpaginated collection-list endpoint.
 
 Create an artist:
@@ -178,5 +197,6 @@ Create a Render Web Service using the repository's `Dockerfile`. Add these envir
 - `MONGODB_URI`
 - `MONGODB_DATABASE`
 - `PORT` if required by the deployment configuration
+- `GOOGLE_CLIENT_ID`
 
 For MongoDB Atlas, allow the Render service to connect in Atlas **Network Access** and verify that the database user, password and cluster hostname are correct. Never disable TLS certificate validation.

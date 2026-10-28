@@ -11,6 +11,17 @@ const document = swaggerJSDoc({
       version: '1.0.0',
       description: 'Generic REST API for entity collections.',
     },
+    components: {
+      securitySchemes: {
+        BearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT',
+          description: 'Google ID token issued to the configured web client.',
+        },
+      },
+    },
+    security: [{ BearerAuth: [] }],
     servers: [
         { url: 'http://localhost:3000', description: 'Development server' },
         { url: 'https://ipt-int-web-api.onrender.com', description: 'Production server' }

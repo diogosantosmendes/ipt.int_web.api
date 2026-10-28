@@ -1,8 +1,9 @@
-import { Router } from 'express';
+import { RequestHandler, Router } from 'express';
 import Controllers from './controllers';
 
-export default function createRoutes(controller: Controllers): Router {
+export default function createRoutes(controller: Controllers, authenticate: RequestHandler): Router {
   const router = Router();
+  router.use(authenticate);
 
   router.get('/classes/:entity/page', controller.generic.list);
   router.get('/classes/:entity/count', controller.generic.count);
