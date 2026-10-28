@@ -19,7 +19,7 @@ declare global {
   }
 }
 
-export function loadGoogleAuthConfig(environment: NodeJS.ProcessEnv = process.env): GoogleAuthConfig {
+function loadGoogleAuthConfig(environment: NodeJS.ProcessEnv = process.env): GoogleAuthConfig {
   const clientId = environment.GOOGLE_CLIENT_ID?.trim();
   if (!clientId) {
     throw new Error('GOOGLE_CLIENT_ID must be the Google OAuth web client ID');
@@ -28,8 +28,9 @@ export function loadGoogleAuthConfig(environment: NodeJS.ProcessEnv = process.en
   return { clientId };
 }
 
-export function createGoogleAuthMiddleware(config: GoogleAuthConfig): RequestHandler {
+export function createGoogleAuthMiddleware(): RequestHandler {
   const jwks = createRemoteJWKSet(new URL('https://www.googleapis.com/oauth2/v3/certs'));
+  const config = loadGoogleAuthConfig();
 
   return async (request: Request, response: Response, next: NextFunction): Promise<void> => {
     const authorization = request.header('authorization');

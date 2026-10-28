@@ -7,7 +7,7 @@ import createRoutes from './routes';
 import { Server } from 'http';
 import swaggerUi from 'swagger-ui-express';
 import cors from 'cors';
-import { createGoogleAuthMiddleware, loadGoogleAuthConfig } from './auth/googleAuth';
+import { createGoogleAuthMiddleware } from './auth/googleAuth';
 
 const port = Number(process.env.PORT) || 3000;
 const openApiDocument = JSON.parse(readFileSync(path.join(__dirname, 'openapi.json'), 'utf8'));
@@ -61,7 +61,7 @@ export function initRestApp(useCases: UseCases): Server {
   app.get('/health', (_request, response) => {
     response.json({ status: 'ok' });
   });
-  app.use(createRoutes(controllers, createGoogleAuthMiddleware(loadGoogleAuthConfig())));
+  app.use(createRoutes(controllers, createGoogleAuthMiddleware()));
 
   app.use((_request, response) => {
     response.status(404).json({ error: 'Route not found' });
