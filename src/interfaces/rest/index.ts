@@ -5,9 +5,9 @@ import UseCases from '../../application/use-cases';
 import { initControllers } from './controllers';
 import createRoutes from './routes';
 import { Server } from 'http';
-import swaggerUi from 'swagger-ui-express';
 import cors from 'cors';
 import { createGoogleAuthMiddleware } from './auth/googleAuth';
+import createSwaggerDocs from './swaggerDocs';
 
 const port = Number(process.env.PORT) || 3000;
 const openApiDocument = JSON.parse(readFileSync(path.join(__dirname, 'openapi.json'), 'utf8'));
@@ -38,7 +38,7 @@ export function initRestApp(useCases: UseCases): Server {
   app.get('/openapi.json', (_request, response) => {
     response.json(openApiDocument);
   });
-  app.use('/docs', swaggerUi.serve, swaggerUi.setup(openApiDocument));
+  app.use('/docs', ...createSwaggerDocs(openApiDocument));
   app.use((_request, response, next) => {
     response.setHeader('Access-Control-Allow-Origin', '*');
     next();

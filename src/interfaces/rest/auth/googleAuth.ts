@@ -8,7 +8,7 @@ export interface GoogleAuthConfig {
 export interface AuthenticatedUser {
   subject: string;
   email: string;
-  hostedDomain?: string;
+  name?: string;
 }
 
 declare global {
@@ -69,23 +69,15 @@ export function createGoogleAuthMiddleware(): RequestHandler {
 
     const subject = payload.sub;
     const email = payload.email;
-    const hostedDomain = payload.hd;
-    if (
-      typeof subject !== 'string'
-      || typeof email !== 'string'
-      || payload.email_verified !== true
-      || (hostedDomain !== undefined
-        && (typeof hostedDomain !== 'string' || hostedDomain.toLowerCase() !== 'ipt.pt'))
-      || !email.toLowerCase().endsWith('@ipt.pt')
-    ) {
-      response.status(403).json({ error: 'A Google-verified @ipt.pt email address is required' });
+    if (typeof subject !== 'string' || typeof email !== 'string' || payload.email_verified !== true) {
+      response.status(403).json({ error: 'A Google-verified account is required' });
       return;
     }
 
     request.auth = {
       subject,
       email,
-      hostedDomain: typeof hostedDomain === 'string' ? hostedDomain : undefined,
+      name: payload.name,
     };
     next();
   };

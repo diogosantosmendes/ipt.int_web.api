@@ -12,12 +12,12 @@ export default function createRoutes(controller: Controllers, authenticate: Requ
   router.put('/classes/:entity/:id', controller.generic.update);
   router.delete('/classes/:entity/:id', controller.generic.delete);
 
-  router.get('/:studentNumber/:entity/page', controller.generic.list);
-  router.get('/:studentNumber/:entity/count', controller.generic.count);
-  router.get('/:studentNumber/:entity/:id', controller.generic.get);
-  router.post('/:studentNumber/:entity', controller.generic.create);
-  router.put('/:studentNumber/:entity/:id', controller.generic.update);
-  router.delete('/:studentNumber/:entity/:id', controller.generic.delete);
+  router.get('/:entity/page', controller.generic.listStudent);
+  router.get('/:entity/count', controller.generic.countStudent);
+  router.get('/:entity/:id', controller.generic.getStudent);
+  router.post('/:entity', controller.generic.createStudent);
+  router.put('/:entity/:id', controller.generic.updateStudent);
+  router.delete('/:entity/:id', controller.generic.deleteStudent);
 
   return router;
 }

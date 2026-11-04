@@ -13,15 +13,15 @@ const document = swaggerJSDoc({
     },
     components: {
       securitySchemes: {
-        BearerAuth: {
+        GoogleBearer: {
           type: 'http',
           scheme: 'bearer',
           bearerFormat: 'JWT',
-          description: 'Google ID token issued to the configured web client.',
+          description: 'Google ID token obtained through Google sign-in.',
         },
       },
     },
-    security: [{ BearerAuth: [] }],
+    security: [{ GoogleBearer: [] }],
     servers: [
         { url: 'http://localhost:3000', description: 'Development server' },
         { url: 'https://ipt-int-web-api.onrender.com', description: 'Production server' }
