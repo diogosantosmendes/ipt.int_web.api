@@ -3,7 +3,7 @@ import UseCases from '../src/application/use-cases';
 import GenericController from '../src/interfaces/rest/controllers/GenericController';
 
 describe('GenericController collection ownership', () => {
-  it('maps class and student endpoints to separately prefixed collections', async () => {
+  it('maps class and JWT-subject student endpoints to separately prefixed collections', async () => {
     const list = jest.fn().mockResolvedValue([]);
     const json = jest.fn();
     const useCases = { generic: { list, count: jest.fn() } } as unknown as UseCases;
@@ -11,22 +11,23 @@ describe('GenericController collection ownership', () => {
     const response = { json } as unknown as Response;
 
     await controller.list(
-      { params: { entity: 'music' }, query: {} } as Request<{ entity: string; studentNumber?: string }>,
+      { params: { entity: 'music' }, query: {} } as Request<{ entity: string }>,
       response,
     );
-    await controller.list(
+    await controller.listStudent(
       {
-        params: { studentNumber: '20178', entity: 'car' },
+        auth: { subject: 'google-subject_123', email: 'student@ipt.pt' },
+        params: { entity: 'car' },
         query: {},
-      } as Request<{ entity: string; studentNumber?: string }>,
+      } as Request<{ entity: string }>,
       response,
     );
 
     expect(list).toHaveBeenNthCalledWith(1, 'classes_music', {
-      filters: {}, sort: {}, page: 1, size: 20,
+      filters: {}, sort: undefined, page: 1, size: 20,
     });
-    expect(list).toHaveBeenNthCalledWith(2, '20178_car', {
-      filters: {}, sort: {}, page: 1, size: 20,
+    expect(list).toHaveBeenNthCalledWith(2, 'google-subject_123_car', {
+      filters: {}, sort: undefined, page: 1, size: 20,
     });
   });
 
@@ -57,15 +58,18 @@ describe('GenericController collection ownership', () => {
     const json = jest.fn();
     const controller = new GenericController({ generic: { count } } as unknown as UseCases);
 
-    await controller.count(
+    await controller.countStudent(
       {
-        params: { studentNumber: '20178', entity: 'car' },
+        auth: { subject: '20178', email: 'student@ipt.pt' },
+        params: { entity: 'car' },
         query: { page: '3', size: '10', sort: 'cost:desc', status: '1' },
-      } as unknown as Request<{ entity: string; studentNumber: string }>,
+      } as unknown as Request<{ entity: string }>,
       { json } as unknown as Response,
     );
 
-    expect(count).toHaveBeenCalledWith('20178_car', { status: 1 });
+    expect(count).toHaveBeenCalledWith('20178_car', {
+      page: '3', size: '10', sort: 'cost:desc', status: '1',
+    });
     expect(json).toHaveBeenCalledWith({ count: 7 });
   });
 

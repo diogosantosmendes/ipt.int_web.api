@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import UseCases from '../../../application/use-cases';
 import { GenericPageOptions } from '../../../application/ports/GenericRepository';
 
-type GenericParams = { entity: string; id?: string; studentNumber?: string };
+type GenericParams = { entity: string; id?: string };
 
 /**
  * @openapi
@@ -73,10 +73,22 @@ export default class GenericController {
   *                   type: integer
    */
   list = async (request: Request<GenericParams>, response: Response): Promise<void> => {
-    const options = this.pageOptions(request.query as Record<string, unknown>);
-    const data = await this.useCases.generic.list(this.collectionName(request.params), options);
-    response.json({ data, page: options.page, size: options.size });
+    await this.listFromCollection(request, response, this.collectionName(request.params));
   };
+
+  listStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.listFromCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async listFromCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
+    const options = this.pageOptions(request.query as Record<string, unknown>);
+    const data = await this.useCases.generic.list(collectionName, options);
+    response.json({ data, page: options.page, size: options.size });
+  }
 
   /**
    * @openapi
@@ -113,9 +125,21 @@ export default class GenericController {
    *                   example: 42
    */
   count = async (request: Request<GenericParams>, response: Response): Promise<void> => {
-    const count = await this.useCases.generic.count(this.collectionName(request.params), request.query);
-    response.json({ count });
+    await this.countFromCollection(request, response, this.collectionName(request.params));
   };
+
+  countStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.countFromCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async countFromCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
+    const count = await this.useCases.generic.count(collectionName, request.query);
+    response.json({ count });
+  }
 
   /**
    * @openapi
@@ -135,13 +159,25 @@ export default class GenericController {
    *       404: { description: Record not found }
    */
   get = async (request: Request<GenericParams>, response: Response): Promise<void> => {
-    const record = await this.useCases.generic.get(this.collectionName(request.params), request.params.id!);
+    await this.getFromCollection(request, response, this.collectionName(request.params));
+  };
+
+  getStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.getFromCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async getFromCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
+    const record = await this.useCases.generic.get(collectionName, request.params.id!);
     if (!record) {
       response.status(404).json({ error: 'Record not found' });
       return;
     }
     response.json(record);
-  };
+  }
 
   /**
    * @openapi
@@ -165,10 +201,22 @@ export default class GenericController {
    *       400: { description: Invalid entity or request body }
    */
   create = async (request: Request<GenericParams>, response: Response): Promise<void> => {
-    response.status(201).json(
-      await this.useCases.generic.create(this.collectionName(request.params), this.requestBody(request.body)),
-    );
+    await this.createInCollection(request, response, this.collectionName(request.params));
   };
+
+  createStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.createInCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async createInCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
+    response.status(201).json(
+      await this.useCases.generic.create(collectionName, this.requestBody(request.body)),
+    );
+  }
 
   /**
    * @openapi
@@ -189,8 +237,20 @@ export default class GenericController {
    *       404: { description: Record not found }
    */
   update = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.updateInCollection(request, response, this.collectionName(request.params));
+  };
+
+  updateStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.updateInCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async updateInCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
     const record = await this.useCases.generic.update(
-      this.collectionName(request.params),
+      collectionName,
       request.params.id!,
       this.requestBody(request.body),
     );
@@ -199,7 +259,7 @@ export default class GenericController {
       return;
     }
     response.json(record);
-  };
+  }
 
   /**
    * @openapi
@@ -215,22 +275,33 @@ export default class GenericController {
    *       404: { description: Record not found }
    */
   delete = async (request: Request<GenericParams>, response: Response): Promise<void> => {
-    const deleted = await this.useCases.generic.delete(this.collectionName(request.params), request.params.id!);
+    await this.deleteFromCollection(request, response, this.collectionName(request.params));
+  };
+
+  deleteStudent = async (request: Request<GenericParams>, response: Response): Promise<void> => {
+    await this.deleteFromCollection(request, response, this.collectionName(request.params, request.auth!.subject));
+  };
+
+  private async deleteFromCollection(
+    request: Request<GenericParams>,
+    response: Response,
+    collectionName: string,
+  ): Promise<void> {
+    const deleted = await this.useCases.generic.delete(collectionName, request.params.id!);
     if (!deleted) {
       response.status(404).json({ error: 'Record not found' });
       return;
     }
     response.status(204).send();
-  };
+  }
 
   /**
    * @openapi
-   * /{studentNumber}/{entity}/page:
+   * /{entity}/page:
    *   get:
    *     summary: List records owned by a student
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *       - name: page
    *         in: query
@@ -253,22 +324,20 @@ export default class GenericController {
    *         schema: { type: object, additionalProperties: true }
    *     responses:
    *       200: { description: Student records found }
-   * /{studentNumber}/{entity}/count:
+   * /{entity}/count:
    *   get:
    *     summary: Count student-owned records matching filters
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *       - { name: 'filter[status]', in: query, description: Exact-match field filter, schema: { type: string } }
    *     responses:
    *       200: { description: Matching student records counted }
-   * /{studentNumber}/{entity}:
+   * /{entity}:
    *   post:
    *     summary: Create a student-owned record
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *     requestBody:
    *       required: true
@@ -277,12 +346,11 @@ export default class GenericController {
    *           schema: { type: object, additionalProperties: true }
    *     responses:
    *       201: { description: Student record created }
-   * /{studentNumber}/{entity}/{id}:
+   * /{entity}/{id}:
    *   get:
    *     summary: Get a student-owned record
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *       - { name: id, in: path, required: true, schema: { type: string } }
    *     responses:
@@ -292,7 +360,6 @@ export default class GenericController {
    *     summary: Update a student-owned record
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *       - { name: id, in: path, required: true, schema: { type: string } }
    *     requestBody:
@@ -307,7 +374,6 @@ export default class GenericController {
    *     summary: Delete a student-owned record
    *     tags: [Generic]
    *     parameters:
-   *       - { name: studentNumber, in: path, required: true, schema: { type: string } }
    *       - { name: entity, in: path, required: true, schema: { type: string } }
    *       - { name: id, in: path, required: true, schema: { type: string } }
    *     responses:
@@ -324,21 +390,13 @@ export default class GenericController {
   }
 
   
-
-  private entity(entity: string): string {
+  private collectionName(params: GenericParams, studentId?: string): string {
+    const entity = params.entity;
     if (!/^[A-Za-z][A-Za-z0-9_-]{0,62}$/.test(entity)) {
       throw new Error('Entity must start with a letter and contain only letters, numbers, underscores, or hyphens');
     }
-    return entity;
-  }
-
-  private collectionName(params: GenericParams): string {
-    const entity = this.entity(params.entity);
-    if (params.studentNumber === undefined) return `classes_${entity}`;
-    if (!/^\d{1,20}$/.test(params.studentNumber)) {
-      throw new Error('Student number must contain only digits');
-    }
-    return `${params.studentNumber}_${entity}`;
+    if (studentId === undefined) return `classes_${entity}`;
+    return `${studentId}_${entity}`;
   }
 
   private pageOptions(query: Record<string, unknown>): GenericPageOptions {
